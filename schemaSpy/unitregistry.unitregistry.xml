@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="unitregistry" schema="unitregistry" type="MySQL - 5.5.54-0ubuntu0.12.04.1">
+   <tables>
+      <table name="baseQuantity" numRows="9" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="baseQuantityId" nullable="false" remarks="" size="10" type="INT UNSIGNED">
+            <child column="baseQuantityId" foreignKey="fk_quantityExpression_baseQuantity" implied="false" onDeleteCascade="false" table="quantityExpression"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="2" name="symbol" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="3" name="baseUnit" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="4" name="baseUnitAbbreviation" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <primaryKey column="baseQuantityId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="baseQuantityId"/>
+         </index>
+      </table>
+      <table name="changeLog" numRows="456" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="changeLogId" nullable="false" remarks="" size="10" type="INT"/>
+         <column autoUpdated="false" digits="0" id="1" name="entityType" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="2" name="entityId" nullable="true" remarks="" size="10" type="INT UNSIGNED"/>
+         <column autoUpdated="false" digits="0" id="3" name="signature" nullable="true" remarks="" size="32" type="CHAR"/>
+         <column autoUpdated="false" defaultValue="CURRENT_TIMESTAMP" digits="0" id="4" name="timestamp" nullable="false" remarks="" size="19" type="TIMESTAMP"/>
+         <column autoUpdated="false" digits="0" id="5" name="snapshot" nullable="true" remarks="" size="65535" type="TEXT"/>
+         <primaryKey column="changeLogId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="changeLogId"/>
+         </index>
+      </table>
+      <table name="comment" numRows="39" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="commentId" nullable="false" remarks="" size="10" type="INT UNSIGNED"/>
+         <column autoUpdated="false" digits="0" id="1" name="unitId" nullable="false" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="unitId" foreignKey="fk_comment_unit" implied="false" onDeleteCascade="false" table="unit"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="signature" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" defaultValue="CURRENT_TIMESTAMP" digits="0" id="3" name="timestamp" nullable="false" remarks="" size="19" type="TIMESTAMP"/>
+         <column autoUpdated="false" digits="0" id="4" name="comment" nullable="true" remarks="" size="65535" type="TEXT"/>
+         <primaryKey column="commentId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="commentId"/>
+         </index>
+         <index name="fk_comment_unit" unique="false">
+            <column ascending="true" name="unitId"/>
+         </index>
+      </table>
+      <table name="login" numRows="54" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="signature" nullable="true" remarks="" size="32" type="CHAR"/>
+         <column autoUpdated="false" digits="0" id="1" name="username" nullable="true" remarks="" size="32" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="2" name="name" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="3" name="address" nullable="true" remarks="" size="15" type="VARCHAR"/>
+         <column autoUpdated="false" defaultValue="CURRENT_TIMESTAMP" digits="0" id="4" name="timestamp" nullable="true" remarks="" size="19" type="TIMESTAMP"/>
+         <index name="signature" unique="true">
+            <column ascending="true" name="signature"/>
+         </index>
+      </table>
+      <table name="quantity" numRows="84" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="quantityId" nullable="false" remarks="" size="10" type="INT UNSIGNED">
+            <child column="quantityId" foreignKey="fk_quantityExpression_quantity" implied="false" onDeleteCascade="false" table="quantityExpression"/>
+            <child column="quantityId" foreignKey="fk_unit_quantity" implied="false" onDeleteCascade="false" table="unit"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="2" name="symbol" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <primaryKey column="quantityId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="quantityId"/>
+         </index>
+      </table>
+      <table name="quantityExpression" numRows="185" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="quantityExpressionId" nullable="false" remarks="" size="10" type="INT UNSIGNED"/>
+         <column autoUpdated="false" digits="0" id="1" name="quantityId" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="quantityId" foreignKey="fk_quantityExpression_quantity" implied="false" onDeleteCascade="false" table="quantity"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="baseQuantityId" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="baseQuantityId" foreignKey="fk_quantityExpression_baseQuantity" implied="false" onDeleteCascade="false" table="baseQuantity"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="3" name="power" nullable="true" remarks="" size="5" type="SMALLINT"/>
+         <primaryKey column="quantityExpressionId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="quantityExpressionId"/>
+         </index>
+         <index name="fk_quantityExpression_baseQuantity" unique="false">
+            <column ascending="true" name="baseQuantityId"/>
+         </index>
+         <index name="fk_quantityExpression_quantity" unique="false">
+            <column ascending="true" name="quantityId"/>
+         </index>
+      </table>
+      <table name="scope" numRows="31" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="scopeId" nullable="false" remarks="" size="10" type="INT UNSIGNED">
+            <child column="scopeId" foreignKey="fk_unitScope_scope" implied="false" onDeleteCascade="false" table="unitScope"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="2" name="description" nullable="true" remarks="" size="65535" type="TEXT"/>
+         <primaryKey column="scopeId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="scopeId"/>
+         </index>
+      </table>
+      <table name="unit" numRows="1286" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="unitId" nullable="false" remarks="" size="10" type="INT UNSIGNED">
+            <child column="unitId" foreignKey="fk_comment_unit" implied="false" onDeleteCascade="false" table="comment"/>
+            <child column="deprecatedTo" foreignKey="fk_unit_deprecated" implied="false" onDeleteCascade="false" table="unit"/>
+            <child column="parentSI" foreignKey="fk_unit_parent" implied="false" onDeleteCascade="false" table="unit"/>
+            <child column="unitId" foreignKey="fk_unitScope_unit" implied="false" onDeleteCascade="false" table="unitScope"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="quantityId" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="quantityId" foreignKey="fk_unit_quantity" implied="false" onDeleteCascade="false" table="quantity"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="parentSI" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="unitId" foreignKey="fk_unit_parent" implied="false" onDeleteCascade="false" table="unit"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="3" name="siMultiplier" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="4" name="siConstant" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="5" name="deprecatedTo" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="unitId" foreignKey="fk_unit_deprecated" implied="false" onDeleteCascade="false" table="unit"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="6" name="deprecatedDueTo" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="7" name="name" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="8" name="abbreviation" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <column autoUpdated="false" digits="0" id="9" name="description" nullable="true" remarks="" size="255" type="VARCHAR"/>
+         <primaryKey column="unitId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="unitId"/>
+         </index>
+         <index name="deprecatedTo" unique="false">
+            <column ascending="true" name="deprecatedTo"/>
+         </index>
+         <index name="fk_unit_quantity" unique="false">
+            <column ascending="true" name="quantityId"/>
+         </index>
+         <index name="fk_unit_unit" unique="false">
+            <column ascending="true" name="parentSI"/>
+         </index>
+      </table>
+      <table name="unitScope" numRows="1746" remarks="" schema="unitregistry" type="TABLE">
+         <column autoUpdated="true" digits="0" id="0" name="unitScopeId" nullable="false" remarks="" size="10" type="INT UNSIGNED"/>
+         <column autoUpdated="false" digits="0" id="1" name="unitId" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="unitId" foreignKey="fk_unitScope_unit" implied="false" onDeleteCascade="false" table="unit"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="scopeId" nullable="true" remarks="" size="10" type="INT UNSIGNED">
+            <parent column="scopeId" foreignKey="fk_unitScope_scope" implied="false" onDeleteCascade="false" table="scope"/>
+         </column>
+         <primaryKey column="unitScopeId" sequenceNumberInPK="1"/>
+         <index name="PRIMARY" unique="true">
+            <column ascending="true" name="unitScopeId"/>
+         </index>
+         <index name="fk_unitScope_scope" unique="false">
+            <column ascending="true" name="scopeId"/>
+         </index>
+         <index name="fk_unitScope_unit" unique="false">
+            <column ascending="true" name="unitId"/>
+         </index>
+      </table>
+   </tables>
+</database>
