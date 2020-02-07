@@ -77,7 +77,7 @@
         <xsl:value-of select="$delimiter"/>
         
         <xsl:choose>
-            <xsl:when test="@constantToSi">
+            <xsl:when test="@constantToSI">
                 <xsl:value-of select="@constantToSI"/>
             </xsl:when>
             <xsl:otherwise>

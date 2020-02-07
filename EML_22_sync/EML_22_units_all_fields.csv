@@ -28,8 +28,8 @@ megagram,megagram,,megagram,kilogram,,1000,Mg,mass
 tonne,tonne,,metric_ton,kilogram,,1000,T,mass
 pound,pound,,avoirdupois_pound,kilogram,,0.4536,lbs,
 ton,ton,,short_ton,kilogram,,907.1999,ton,
-celsius,celsius,,celsius,kelvin,,1,C,
-fahrenheit,fahrenheit,,fahrenheit,kelvin,,0.556,F,
+celsius,celsius,,celsius,kelvin,273.18,1,C,
+fahrenheit,fahrenheit,,fahrenheit,kelvin,255.402,0.556,F,
 nanometer,nanometer,,nanometer,meter,,0.000000001,nm,
 micrometer,micrometer,,micrometer,meter,,0.000001,μm,
 micron,micron,micrometer,micrometer,meter,,0.000001,μ,
@@ -88,7 +88,7 @@ joule,joule,,joule,,,1,J,energy
 calorie,calorie,,IT_calorie,joule,,4.1868,cal,energy
 britishThermalUnit,britishThermalUnit,,IT_Btu,joule,,1055.0559,btu,energy
 footPound,footPound,,international_foot pound_force,joule,,1.355818,,energy
-langley,langley,,langley,joulePerMeterSquared,,41840,Ly,arealEnergyDensity
+langley,langley,,langley,joulePerMeterSquared,0,41840,Ly,arealEnergyDensity
 lumen,lumen,,lumen,,,1,lm,luminosity
 lux,lux,,lux,,,1,lx,illuminance
 becquerel,becquerel,,becquerel,,,1,Bq,radionucleotideActivity
@@ -315,6 +315,7 @@ molePerMole,molePerMole,,mole/mole,molePerMole,,1,mol/mol,
 millimolePerMole,millimolePerMole,,millimole/mole,molePerMole,,.001,mmol/mol,
 micromolePerMole,micromolePerMole,,micromole/mole,molePerMole,,.000001,μmol/mol,
 nanomolePerMole,nanomolePerMole,,nanomole/mole,molePerMole,,.000000001,nmol/mol,
+molePerKilogram,molePerKilogram,,mole/kilogram,molePerKilogram,,1,mol/kg,
 millimolePerKilogram,millimolePerKilogram,,millimole/kilogram,molePerKilogram,,0.001,mmol/kg,
 micromolePerKilogram,micromolePerKilogram,,micromole/kilogram,molePerKilogram,,0.000001,µmol/kg,
 nanomolePerKilogram,nanomolePerKilogram,,nanomole/kilogram,molePerKilogram,,0.000000001,nmol/kg,
@@ -331,5 +332,5 @@ microwattPerCentimeterSquaredPerNanometerPerSteradian,microwattPerCentimeterSqua
 molePerMeterSquaredPerSecond,molePerMeterSquaredPerSecond,,mole/meter^2/second,molePerMeterSquaredPerSecond,,1,mol/m²/s,
 micromolePerMeterSquaredPerSecond,micromolePerMeterSquaredPerSecond,,micromole/meter^2/second,molePerMeterSquaredPerSecond,,0.000001,µmol/m²/s,
 micromolePerCentimeterSquaredPerSecond,micromolePerCentimeterSquaredPerSecond,,micromole/centimeter^2/second,molePerMeterSquaredPerSecond,,0.01,µmol/cm²/s,
-megajoulePerMeterSquaredPerDay,megajoulePerMeterSquaredPerDay,,megajoule/m^2/day,joulePerMeterSquaredPerSecond,,11.5741,MJ/m2/day,arealEnergyDensityRate
-langleyPerDay,langleyPerDay,,langley/day,joulePerMeterSquaredPerSecond,,0.484259,Ly/day,arealEnergyDensityRate
+megajoulePerMeterSquaredPerDay,megajoulePerMeterSquaredPerDay,,megajoule/m^2/day,joulePerMeterSquaredPerSecond,0,11.5741,MJ/m2/day,arealEnergyDensityRate
+langleyPerDay,langleyPerDay,,langley/day,joulePerMeterSquaredPerSecond,0,0.484259,Ly/day,arealEnergyDensityRate
