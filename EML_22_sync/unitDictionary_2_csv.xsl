@@ -29,7 +29,7 @@
 
     <xsl:template match="stmml:unitList">
 
-        <xsl:text>id,name,deprecatedInFavorOf,udunitSynonym,parentSi,constantToSi,multiplierToSi,abbreviation,unitType</xsl:text>
+        <xsl:text>id,name,deprecatedInFavorOf,udunitSynonym,parentSi,constantToSi,multiplierToSi,abbreviation,unitType,description</xsl:text>
         <xsl:value-of select="$newline"/>
         <!-- insert a <xml:text> header here if you want one. 
        <xsl:value-of select="$newline"/>  -->
@@ -109,6 +109,16 @@
         <xsl:choose>
             <xsl:when test="@unitType">
                 <xsl:value-of select="@unitType"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <!--     <xsl:text>\N</xsl:text> -->
+            </xsl:otherwise>
+        </xsl:choose>
+
+        <xsl:value-of select="$delimiter"/>
+        <xsl:choose>
+            <xsl:when test="stmml:description">
+                <xsl:value-of select="normalize-space(stmml:description)"/>
             </xsl:when>
             <xsl:otherwise>
                 <!--     <xsl:text>\N</xsl:text> -->

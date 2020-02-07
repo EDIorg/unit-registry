@@ -1,336 +1,336 @@
-id,name,deprecatedInFavorOf,udunitSynonym,parentSi,constantToSi,multiplierToSi,abbreviation,unitType
-dimensionless,dimensionless,,,,,,,dimensionless
-second,second,,second,,,1,sec,time
-meter,meter,,meter,,,1,m,length
-kilogram,kilogram,,kilogram,,,1,kg,mass
-kelvin,kelvin,,kelvin,,,1,K,temperature
-coulomb,coulomb,,coulomb,,,1,C,charge
-ampere,ampere,,ampere,,,1,A,current
-mole,mole,,mole,,,1,mol,amount
-candela,candela,,candela,,,1,cd,luminosity
-number,number,,count,,,,,dimensionless
-cubicMeter,cubicMeter,meterCubed,meter^3,,,1,m³,volume
-nominalMinute,nominalMinute,,minute,second,,60,,time
-nominalHour,nominalHour,,hour,second,,3600,,time
-nominalDay,nominalDay,,day,second,,86400,,time
-nominalWeek,nominalWeek,,week,second,,604800,,time
-nominalYear,nominalYear,,common_year,second,,31536000,,time
-nominalLeapYear,nominalLeapYear,,leap_year,second,,31622400,,time
-nanogram,nanogram,,nanogram,kilogram,,0.000000000001,ng,mass
-microgram,microgram,,microgram,kilogram,,0.000000001,μg,mass
-milligram,milligram,,milligram,kilogram,,0.000001,mg,mass
-centigram,centigram,,centigram,kilogram,,0.00001,cg,mass
-decigram,decigram,,decigram,kilogram,,0.0001,dg,mass
-gram,gram,,gram,kilogram,,0.001,g,mass
-dekagram,dekagram,,dekagram,kilogram,,0.01,dag,mass
-hectogram,hectogram,,hectogram,kilogram,,0.1,hg,mass
-megagram,megagram,,megagram,kilogram,,1000,Mg,mass
-tonne,tonne,,metric_ton,kilogram,,1000,T,mass
-pound,pound,,avoirdupois_pound,kilogram,,0.4536,lbs,
-ton,ton,,short_ton,kilogram,,907.1999,ton,
-celsius,celsius,,celsius,kelvin,273.18,1,C,
-fahrenheit,fahrenheit,,fahrenheit,kelvin,255.402,0.556,F,
-nanometer,nanometer,,nanometer,meter,,0.000000001,nm,
-micrometer,micrometer,,micrometer,meter,,0.000001,μm,
-micron,micron,micrometer,micrometer,meter,,0.000001,μ,
-millimeter,millimeter,,millimeter,meter,,0.001,mm,
-centimeter,centimeter,,centimeter,meter,,0.01,cm,
-decimeter,decimeter,,decimeter,meter,,0.1,dm,
-dekameter,dekameter,,dekameter,meter,,10,dam,
-hectometer,hectometer,,hectometer,meter,,100,hm,
-kilometer,kilometer,,kilometer,meter,,1000,km,
-megameter,megameter,,megameter,meter,,1000000,Mm,
-angstrom,angstrom,,angstrom,meter,,0.0000000001,Å,
-inch,inch,,international_inch,meter,,0.0254,in,
-Foot_US,Foot_US,,US_survey_foot,meter,,0.3048006,usft,
-foot,foot,,international_foot,meter,,0.3048,ft,
-Foot_Gold_Coast,Foot_Gold_Coast,,,meter,,0.3047997,gcft,
-fathom,fathom,,fathom,meter,,1.8288,,
-nauticalMile,nauticalMile,,nautical_mile,meter,,1852,,
-yard,yard,,international_yard,meter,,0.9144,yard,
-Yard_Indian,Yard_Indian,,,meter,,0.914398530744440774,,
-Link_Clarke,Link_Clarke,,,meter,,0.2011661949,,
-Yard_Sears,Yard_Sears,yard,,meter,,0.91439841461602867,,
-mile,mile,,international_mile,meter,,1609.344,mile,
-nanosecond,nanosecond,,nanosecond,second,,0.000000001,nsec,
-microsecond,microsecond,,microsecond,second,,0.000001,μsec,
-millisecond,millisecond,,millisecond,second,,0.001,msec,
-centisecond,centisecond,,centisecond,second,,0.01,csec,
-decisecond,decisecond,,decisecond,second,,0.1,dsec,
-dekasecond,dekasecond,,dekasecond,second,,10,dasec,
-hectosecond,hectosecond,,hectosecond,second,,100,hsec,
-kilosecond,kilosecond,,kilosecond,second,,1000,ksec,
-megasecond,megasecond,,megasecond,second,,1000000,Msec,
-minute,minute,,minute,second,,60,min,
-hour,hour,,hour,second,,3600,hr,
-kiloliter,kiloliter,,kiloliter,cubicMeter,,1,kL,volume
-microliter,microliter,,microliter,cubicMeter,,0.000000001,μl,volume
-milliliter,milliliter,,milliliter,cubicMeter,,0.000001,ml,volume
-liter,liter,,liter,cubicMeter,,0.001,L,volume
-gallon,gallon,,US_liquid_gallon,liter,,3.785412,gal,
-quart,quart,,US_liquid_quart,liter,,0.946353,qt,
-bushel,bushel,,bushel,liter,,35.23907,b,volume
-cubicInch,cubicInch,inchCubed,international_inch^3,liter,,0.01638706,in³,volume
-pint,pint,,US_liquid_pint,liter,,0.473176,pint,
-meterCubed,meterCubed,,meter^3,meterCubed,,1,m³,volume
-centimeterCubed,centimeterCubed,,centimeter^3,meterCubed,,0.000001,cm³,volume
-inchCubed,inchCubed,,international_inch^3,liter,,0.01638706,in³,volume
-radian,radian,,radian,,,1,rad,angle
-degree,degree,,arc_degree,radian,,0.0174532924,º,angle
-grad,grad,,,radian,,0.015707,grad,angle
-steradian,steradian,,steradian,,,1,sr,angle
-megahertz,megahertz,,megahertz,hertz,,1000000,MHz,frequency
-kilohertz,kilohertz,,kilohertz,hertz,,1000,KHz,frequency
-hertz,hertz,,hertz,,,1,Hz,frequency
-millihertz,millihertz,,millihertz,hertz,,0.001,mHz,frequency
-newton,newton,,newton,,,1,N,force
-joule,joule,,joule,,,1,J,energy
-calorie,calorie,,IT_calorie,joule,,4.1868,cal,energy
-britishThermalUnit,britishThermalUnit,,IT_Btu,joule,,1055.0559,btu,energy
-footPound,footPound,,international_foot pound_force,joule,,1.355818,,energy
-langley,langley,,langley,joulePerMeterSquared,0,41840,Ly,arealEnergyDensity
-lumen,lumen,,lumen,,,1,lm,luminosity
-lux,lux,,lux,,,1,lx,illuminance
-becquerel,becquerel,,becquerel,,,1,Bq,radionucleotideActivity
-gray,gray,,gray,,,1,Gy,specificEnergy
-sievert,sievert,,sievert,,,1,Sv,doseEquivalent
-katal,katal,,katal,,,1,kat,catalyticActivity
-henry,henry,,henry,,,1,H,inductance
-megawatt,megawatt,,megawatt,watt,,1000000,MW,power
-kilowatt,kilowatt,,kilowatt,watt,,1000,kW,power
-watt,watt,,watt,,,1,W,power
-milliwatt,milliwatt,,milliwatt,watt,,0.001,mW,power
-megavolt,megavolt,,megavolt,volt,,1000000,MV,potentialDifference
-kilovolt,kilovolt,,kilovolt,volt,,1000,kV,potentialDifference
-volt,volt,,volt,,,1,V,potentialDifference
-millivolt,millivolt,,millivolt,volt,,0.001,mV,potentialDifference
-farad,farad,,farad,,,1,F,capacitance
-ohm,ohm,,ohm,,,1,Ω,resistance
-ohmMeter,ohmMeter,,ohm meter,,,1,Ωm,resistivity
-siemensPerMeter,siemensPerMeter,,siemens/meter,siemensPerMeter,,1,S/m,
-siemensPerCentimeter,siemensPerCentimeter,,siemens/centimeter,siemensPerMeter,,.01,S/cm,
-siemen,siemen,siemens,siemens,,,1,S,conductance
-siemens,siemens,,siemens,siemens,,1,S,
-weber,weber,,weber,,,1,Wb,magneticFlux
-tesla,tesla,,tesla,,,1,T,magneticFluxDensity
-pascal,pascal,,pascal,,,1,Pa,pressure
-megapascal,megapascal,,megapascal,pascal,,1000000,MPa,pressure
-kilopascal,kilopascal,,kilopascal,pascal,,1000,kPa,pressure
-hectopascal,hectopascal,,hectopascal,pascal,,100,hPa,pressure
-atmosphere,atmosphere,,standard_atmosphere,pascal,,101325,atm,pressure
-bar,bar,,bar,pascal,,100000,bar,pressure
-millibar,millibar,,millibar,pascal,,100,mbar,pressure
-decibar,decibar,,decibar,pascal,,10000,dbar,pressure
-kilogramsPerSquareMeter,kilogramsPerSquareMeter,kilogramPerMeterSquared,kilogram/meter^2,,,1,kg/m²,arealMassDensity
-gramsPerSquareMeter,gramsPerSquareMeter,gramPerMeterSquared,gram/meter^2,kilogramPerMeterSquared,,0.001,g/m²,arealMassDensity
-milligramsPerSquareMeter,milligramsPerSquareMeter,milligramPerMeterSquared,milligram/meter^2,kilogramPerMeterSquared,,0.000001,mg/m²,arealMassDensity
-kilogramsPerHectare,kilogramsPerHectare,kilogramPerHectare,kilogram/hectare,kilogramPerMeterSquared,,0.0001,,arealMassDensity
-tonnePerHectare,tonnePerHectare,,metric_ton/hectare,kilogramPerMeterSquared,,0.1,,arealMassDensity
-poundsPerSquareInch,poundsPerSquareInch,poundPerInchSquared,avoirdupois_pound/international_inch^2,kilogramPerMeterSquared,,703.0696,lbs/in²,arealMassDensity
-gramPercentimeterSquared,gramPercentimeterSquared,,gram/cm^2,kilogramPerMeterSquared,,10,g/cm²,arealMassDensity
-gramPerMeterSquared,gramPerMeterSquared,,gram/meter^2,kilogramPerMeterSquared,,0.001,g/m²,arealMassDensity
-kilogramPerHectare,kilogramPerHectare,,kilogram/hectare,kilogramPerMeterSquared,,0.0001,kg/hectare,arealMassDensity
-kilogramPerMeterSquared,kilogramPerMeterSquared,,kilogram/meter^2,kilogramPerMeterSquared,,1,kg/m²,arealMassDensity
-milligramPerMeterSquared,milligramPerMeterSquared,,milligram/meter^2,kilogramPerMeterSquared,,0.000001,mg/m²,arealMassDensity
-poundPerAcre,poundPerAcre,,avoirdupois_pound/acre,kilogramPerMeterSquared,,0.000112084667279431,lb/acre,arealMassDensity
-poundPerInchSquared,poundPerInchSquared,,avoirdupois_pound/international_inch^2,kilogramPerMeterSquared,,703.0696,lbs/in²,arealMassDensity
-kilogramPerCubicMeter,kilogramPerCubicMeter,kilogramPerMeterCubed,kilogram/meter^3,,,1,,massDensity
-milliGramsPerMilliLiter,milliGramsPerMilliLiter,milligramPerMilliliter,milligram/milliliter,kilogramPerMeterCubed,,1,kg/m³,massDensity
-gramsPerLiter,gramsPerLiter,gramPerLiter,gram/liter,kilogramPerMeterCubed,,1,g/l,massDensity
-milligramsPerCubicMeter,milligramsPerCubicMeter,milligramPerMeterCubed,milligram/meter^3,kilogramPerMeterCubed,,0.000001,mg/m³,massDensity
-microgramsPerLiter,microgramsPerLiter,microgramPerLiter,microgram/liter,kilogramPerMeterCubed,,0.000001,μg/l,massDensity
-milligramsPerLiter,milligramsPerLiter,milligramPerLiter,milligram/liter,kilogramPerMeterCubed,,0.001,mg/l,massDensity
-gramsPerCubicCentimeter,gramsPerCubicCentimeter,gramPerCentimeterCubed,gram/centimeter^3,kilogramPerMeterCubed,,1000,g/cm³,massDensity
-gramsPerMilliliter,gramsPerMilliliter,gramPerMilliliter,gram/milliliter,kilogramPerMeterCubed,,1000,g/ml,massDensity
-gramPerCentimeterCubed,gramPerCentimeterCubed,,gram/centimeter^3,kilogramPerMeterCubed,,1000,g/cm³,massDensity
-gramPerLiter,gramPerLiter,,gram/liter,kilogramPerMeterCubed,,1,g/l,massDensity
-gramPerMilliliter,gramPerMilliliter,,gram/milliliter,kilogramPerMeterCubed,,1000,g/ml,massDensity
-microgramPerLiter,microgramPerLiter,,microgram/liter,kilogramPerMeterCubed,,0.000001,μg/l,massDensity
-milligramPerLiter,milligramPerLiter,,milligram/liter,kilogramPerMeterCubed,,0.001,mg/l,massDensity
-milligramPerMeterCubed,milligramPerMeterCubed,,milligram/meter^3,kilogramPerMeterCubed,,0.000001,mg/m³,massDensity
-kilogramPerMeterCubed,kilogramPerMeterCubed,,kilogram/meter^3,kilogramPerMeterCubed,,1,kg/m³,massDensity
-megagramPerMeterCubed,megagramPerMeterCubed,,megagram/meter^3,kilogramPerMeterCubed,,1000,Mg/m³,massDensity
-milligramPerMilliliter,milligramPerMilliliter,,milligram/milliliter,kilogramPerMeterCubed,,1,mg/ml,massDensity
-gramsPerLiterPerDay,gramsPerLiterPerDay,gramPerDayPerLiter,gram/liter/day,,,1,,volumetricMassDensityRate
-milligramPerMeterCubedPerDay,milligramPerMeterCubedPerDay,,milligram/meter^3/day,kilogramPerMeterCubedPerSecond,,0.0000015741,mg/m3/d,volumetricMassDensityRate
-gramPerDayPerLiter,gramPerDayPerLiter,,gram/day/liter,gramPerDayPerLiter,,1,g/d/l,volumetricMassDensityRate
-litersPerSecond,litersPerSecond,literPerSecond,liter/second,,,1,l/s,volumetricRate
-cubicMetersPerSecond,cubicMetersPerSecond,meterCubedPerSecond,meter^3/second,literPerSecond,,1000,m³/s,volumetricRate
-cubicFeetPerSecond,cubicFeetPerSecond,footCubedPerSecond,international_foot^3/second,literPerSecond,,28.316874,ft³/s,volumetricRate
-footCubedPerSecond,footCubedPerSecond,,international_foot^3/second,literPerSecond,,28.316874,ft³/s,volumetricRate
-literPerSecond,literPerSecond,,liter/second,literPerSecond,,1,l/s,volumetricRate
-meterCubedPerSecond,meterCubedPerSecond,,meter^3/second,literPerSecond,,1000,m³/s,volumetricRate
-squareMeter,squareMeter,meterSquared,meter^2,,,1,m²,area
-are,are,,are,squareMeter,,100,a,area
-hectare,hectare,,hectare,squareMeter,,10000,ha,area
-squareKilometers,squareKilometers,kilometerSquared,kilometer^2,squareMeter,,1000000,,area
-squareMillimeters,squareMillimeters,millimeterSquared,millimeter^2,squareMeter,,0.000001,,area
-squareCentimeters,squareCentimeters,centimeterSquared,centimeter^2,squareMeter,,0.0001,,area
-acre,acre,,acre,squareMeter,,4046.8564,a,area
-squareFoot,squareFoot,footSquared,international_foot^2,squareMeter,,0.092903,ft²,area
-squareYard,squareYard,yardSquared,international_yard^2,squareMeter,,0.836131,yd²,area
-squareMile,squareMile,mileSquared,international_mile^2,squareMeter,,2589998.49806,mile²,area
-centimeterSquared,centimeterSquared,,centimeter^2,meterSquared,,0.0001,cm²,area
-footSquared,footSquared,,international_foot^2,meterSquared,,0.092903,ft²,area
-kilometerSquared,kilometerSquared,,kilometer^2,meterSquared,,1000000,km²,area
-meterSquared,meterSquared,,meter^2,meterSquared,,1,m²,area
-mileSquared,mileSquared,,international_mile^2,meterSquared,,2589998.49806,mile²,area
-millimeterSquared,millimeterSquared,,millimeter^2,meterSquared,,0.000001,mm²,area
-yardSquared,yardSquared,,international_yard^2,meterSquared,,0.836131,yd²,area
-litersPerSquareMeter,litersPerSquareMeter,literPerMeterSquared,liter/meter^2,,,1,l/m²,volumetricArea
-bushelsPerAcre,bushelsPerAcre,bushelPerAcre,bushel/acre,literPerMeterSquared,,0.00870,,volumetricArea
-litersPerHectare,litersPerHectare,literPerHectare,liter/hectare,literPerMeterSquared,,0.0001,,volumetricArea
-bushelPerAcre,bushelPerAcre,,bushel/acre,literPerMeterSquared,,0.00870,bu/acre,volumetricArea
-literPerHectare,literPerHectare,,liter/hectare,literPerMeterSquared,,0.0001,l/hectare,volumetricArea
-literPerMeterSquared,literPerMeterSquared,,liter/meter^2,literPerMeterSquared,,1,l/m²,volumetricArea
-meterCubedPerHectare,meterCubedPerHectare,,m^3/hectare,meterCubedPerMeterSquared,,0.0001,m3/ha,volumetricArea
-meterCubedPerMeterSquared,meterCubedPerMeterSquared,,m^3/m^2,meterCubedPerMeterSquared,,1,m^3/m^2,volumetricArea
-meterSquaredPerHectare,meterSquaredPerHectare,,m^2/hectare,meterSquaredPerMeterSquared,,0.0001,m^2/ha,volumetricArea
-squareMeterPerKilogram,squareMeterPerKilogram,meterSquaredPerKilogram,meter^2/kilogram,,,1,m²/kg,specificArea
-meterSquaredPerKilogram,meterSquaredPerKilogram,,meter^2/kilogram,meterSquaredPerKilogram,,1,m²/kg,specificArea
-metersPerSecond,metersPerSecond,meterPerSecond,meter/second,meterPerSecond,,1,m/s,speed
-metersPerDay,metersPerDay,meterPerDay,meter/day,,,.0000115741,m/day,speed
-feetPerDay,feetPerDay,footPerDay,international_foot/day,meterPerSecond,,0.00000352778,ft/day,speed
-feetPerSecond,feetPerSecond,footPerSecond,international_foot/second,meterPerSecond,,0.3048,ft/s,speed
-feetPerHour,feetPerHour,footPerHour,international_foot/hour,meterPerSecond,,0.000084667,ft/hr,speed
-yardsPerSecond,yardsPerSecond,yardPerSecond,international_yard/second,meterPerSecond,,0.9144,yd/s,speed
-milesPerHour,milesPerHour,milePerHour,international_mile/hour,meterPerSecond,,0.44704,mph,speed
-milesPerSecond,milesPerSecond,milePerSecond,international_mile/second,meterPerSecond,,1609.344,mps,speed
-milesPerMinute,milesPerMinute,milePerMinute,international_mile/minute,meterPerSecond,,26.8224,mpm,speed
-centimetersPerSecond,centimetersPerSecond,centimeterPerSecond,centimeter/second,meterPerSecond,,0.01,cm/s,speed
-millimetersPerSecond,millimetersPerSecond,millimeterPerSecond,millimeter/second,meterPerSecond,,0.001,mm/s,speed
-centimeterPerYear,centimeterPerYear,centimeterPerYear,centimeter/common_year,meterPerSecond,,0.000000000317098,cm/year,speed
-knots,knots,knot,international_knot,meterPerSecond,,0.514444,,speed
-kilometersPerHour,kilometersPerHour,kilometerPerHour,kilometer/hour,meterPerSecond,,0.2778,km/hr,speed
-centimeterPerSecond,centimeterPerSecond,,centimeter/second,meterPerSecond,,0.01,cm/s,speed
-footPerDay,footPerDay,,international_foot/day,meterPerSecond,,0.00000352778,ft/day,speed
-footPerHour,footPerHour,,international_foot/hour,meterPerSecond,,0.000084667,ft/hr,speed
-footPerSecond,footPerSecond,,international_foot/second,meterPerSecond,,0.3048,ft/s,speed
-inchPerHour,inchPerHour,,international_inch/hour,meterPerSecond,,0.00000705556,in/hr,speed
-kilometerPerHour,kilometerPerHour,,kilometer/hour,meterPerSecond,,0.2778,km/hr,speed
-knot,knot,,international_knot,meterPerSecond,,0.514444444444444,knot,speed
-meterPerDay,meterPerDay,,meter/day,meterPerSecond,,.0000115741,m/day,speed
-meterPerSecond,meterPerSecond,,meter/second,meterPerSecond,,1,m/s,speed
-milePerHour,milePerHour,,international_mile/hour,meterPerSecond,,0.44704,mph,speed
-milePerMinute,milePerMinute,,international_mile/minute,meterPerSecond,,26.8224,mpm,speed
-milePerSecond,milePerSecond,,international_mile/second,meterPerSecond,,1609.344,mps,speed
-millimeterPerDay,millimeterPerDay,,millimeter/day,meterPerSecond,,0.00000001157407,mm/d,speed
-millimeterPerSecond,millimeterPerSecond,,millimeter/second,meterPerSecond,,0.001,mm/s,speed
-yardPerSecond,yardPerSecond,,international_yard/second,meterPerSecond,,0.9144,yd/s,speed
-metersPerSecondSquared,metersPerSecondSquared,meterPerSecondSquared,meter/second^2,,,1,m/s²,acceleration
-meterPerSecondSquared,meterPerSecondSquared,,meter/second^2,meterPerSecondSquared,,1,m/s²,acceleration
-waveNumber,waveNumber,inverseMeter,meter^-1,,,1,,lengthReciprocal
-inverseMeter,inverseMeter,,meter^-1,,,1,,lengthReciprocal
-inverseCentimeter,inverseCentimeter,,meter^-1,,,.01,,lengthReciprocal
-cubicMeterPerKilogram,cubicMeterPerKilogram,meterCubedPerKilogram,meter^3/kilogram,,,1,m³/kg,specificVolume
-cubicMicrometersPerGram,cubicMicrometersPerGram,micrometerCubedPerGram,micrometer^3/gram,cubicMeterPerKilogram,,0.000000000000001,μm³/kg,specificVolume
-meterCubedPerKilogram,meterCubedPerKilogram,,meter^3/kilogram,meterCubedPerKilogram,,1,m³/kg,specificVolume
-micrometerCubedPerGram,micrometerCubedPerGram,,micrometer^3/gram,meterCubedPerKilogram,,0.000000000000001,μm³/kg,specificVolume
-amperePerSquareMeter,amperePerSquareMeter,amperePerMeterSquared,ampere/meter^2,,,1,A/m²,currentDensity
-amperePerMeterSquared,amperePerMeterSquared,,ampere/meter^2,amperePerMeterSquared,,1,A/m²,currentDensity
-amperePerMeter,amperePerMeter,,ampere/meter,,,1,A/m,magneticFieldStrength
-molePerCubicMeter,molePerCubicMeter,molePerMeterCubed,mole/meter^3,,,1,,amountOfSubstanceConcentration
-molarity,molarity,molePerLiter,mole/liter,molePerMeterCubed,,1000,M,amountOfSubstanceConcentration
-molePerMeterCubed,molePerMeterCubed,,mole/meter^3,molePerMeterCubed,,1,mol/m³,amountOfSubstanceConcentration
-molePerLiter,molePerLiter,,mole/liter,molePerMeterCubed,,1000,mol/l,amountOfSubstanceConcentration
-millimolePerLiter,millimolePerLiter,,millimole/liter,molePerMeterCubed,,1,mmol/l,amountOfSubstanceConcentration
-micromolePerLiter,micromolePerLiter,,micromole/liter,molePerMeterCubed,,0.001,µmol/l,amountOfSubstanceConcentration
-nanomolePerLiter,nanomolePerLiter,,nanomole/liter,molePerMeterCubed,,0.000001,nmol/l,amountOfSubstanceConcentration
-millimolePerMeterCubed,millimolePerMeterCubed,,millimole/meter^3,molePerMeterCubed,,.001,mol/m³,amountOfSubstanceConcentration
-microequivalentPerLiter,microequivalentPerLiter,,,molePerMeterCubed,,,E/l,amountOfSubstanceConcentration
-milliequivalentPerLiter,milliequivalentPerLiter,,,molePerMeterCubed,,,mE/l,amountOfSubstanceConcentration
-equivalentPerLiter,equivalentPerLiter,,,molePerMeterCubed,,,µE/l,amountOfSubstanceConcentration
-molality,molality,molePerKilogram,mole/kilogram,,,1,m,amountOfSubstanceWeight
-millimolePerGram,millimolePerGram,,millimole/gram,molePerKilogram,,1,mmol/g,amountOfSubstanceWeight
-molePerGram,molePerGram,,mole/gram,molePerKilogram,,1000,mol/g,amountOfSubstanceWeight
-molePerKilogram,molePerKilogram,,mole/kilogram,molePerKilogram,,1,mol/kg,amountOfSubstanceWeight
-micromolePerGram,micromolePerGram,,micromole/gram,molePerKilogram,,0.001,umol/g,amountOfSubstanceWeight
-candelaPerSquareMeter,candelaPerSquareMeter,candelaPerMeterSquared,candela/meter^2,,,1,cd/m²,luminance
-candelaPerMeterSquared,candelaPerMeterSquared,,candela/meter^2,candelaPerMeterSquared,,1,cd/m²,luminance
-metersSquaredPerSecond,metersSquaredPerSecond,meterSquaredPerSecond,meter^2/second,,,1,m²/s,transmissivity
-metersSquaredPerDay,metersSquaredPerDay,meterSquaredPerDay,meter^2/day,metersSquaredPerSecond,,0.00001157407,m²/day,transmissivity
-feetSquaredPerDay,feetSquaredPerDay,footSquaredPerDay,international_foot^2/day,metersSquaredPerSecond,,0.000001075267,ft²/day,transmissivity
-footSquaredPerDay,footSquaredPerDay,,international_foot^2/day,meterSquaredPerSecond,,0.000001075267,ft²/d,transmissivity
-meterSquaredPerDay,meterSquaredPerDay,,meter^2/day,meterSquaredPerSecond,,0.00001157407,m²/d,transmissivity
-meterSquaredPerSecond,meterSquaredPerSecond,,meter^2/second,meterSquaredPerSecond,,1,m²/s,transmissivity
-kilogramsPerMeterSquaredPerSecond,kilogramsPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,kilogram/meter^2/second,,,1,,massFlux
-gramsPerCentimeterSquaredPerSecond,gramsPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,gram/centimeter^2/second,kilogramPerMeterSquaredPerSecond,,10,,massFlux
-gramsPerMeterSquaredPerYear,gramsPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,gram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.0000000000317098,,massFlux
-gramsPerHectarePerDay,gramsPerHectarePerDay,gramPerDayPerHectare,gram/hectare/day,kilogramPerMeterSquaredPerSecond,,0.0000000000011574,,massFlux
-kilogramsPerHectarePerYear,kilogramsPerHectarePerYear,kilogramPerHectarePerYear,kilogram/hectare/common_year,kilogramPerMeterSquaredPerSecond,,0.000000000003170979,,massFlux
-kilogramsPerMeterSquaredPerYear,kilogramsPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,kilogram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000003170979,,massFlux
-gramPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,,gram/centimeter^2/second,kilogramPerMeterSquaredPerSecond,,10,g/cm²/s,massFlux
-gramPerDayPerHectare,gramPerDayPerHectare,,gram/day/hectare,kilogramPerMeterSquaredPerSecond,,0.000000000001157407,g/d/hectare,massFlux
-gramPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,,gram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000000003170979,g/m²/yr,massFlux
-kilogramPerHectarePerYear,kilogramPerHectarePerYear,,kilogram/hectare/common_year,kilogramPerMeterSquaredPerSecond,,0.000000000003170979,kg/hectare/yr,massFlux
-kilogramPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,,kilogram/meter^2/second,kilogramPerMeterSquaredPerSecond,,1,kg/m²/s,massFlux
-kilogramPerMeterSquaredPerDay,kilogramPerMeterSquaredPerDay,,kilogram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000015741,kg/m²/d,massFlux
-gramPerMeterSquaredPerDay,gramPerMeterSquaredPerDay,,kilogram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000000015741,kg/m²/d,massFlux
-milligramPerMeterSquaredPerDay,milligramPerMeterSquaredPerDay,,milligram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000000000015741,mg/m²/d,massFlux
-kilogramPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,,kilogram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000003170979,kg/m²/yr,massFlux
-molesPerKilogram,molesPerKilogram,molePerKilogram,mole/kilogram,,,1,,amountOfSubstanceWeight
-molesPerGram,molesPerGram,molePerGram,mole/gram,molePerKilogram,,1000,,amountOfSubstanceWeight
-millimolesPerGram,millimolesPerGram,millimolePerGram,millimole/gram,molePerKilogram,,1,,amountOfSubstanceWeight
-molesPerKilogramPerSecond,molesPerKilogramPerSecond,molePerKilogramPerSecond,mole/kilogram/second,,,1,,amountOfSubstanceWeightRate
-nanomolesPerGramPerSecond,nanomolesPerGramPerSecond,nanomolePerGramPerSecond,nanomole/gram/second,molePerKilogramPerSecond,,0.000001,,amountOfSubstanceWeightRate
-molePerKilogramPerSecond,molePerKilogramPerSecond,,mole/kilogram/second,molePerKilogramPerSecond,,1,mol/kg/s,amountOfSubstanceWeightRate
-nanomolePerGramPerSecond,nanomolePerGramPerSecond,,nanomole/gram/second,molePerKilogramPerSecond,,0.000001,nmol/g/s,amountOfSubstanceWeightRate
-nanomolePerGramPerHour,nanomolePerGramPerHour,,nanomole/gram/hour,molePerKilogramPerSecond,,0.000000000277778,nmol/g/h,amountOfSubstanceWeightRate
-nanomolePerGramPerDay,nanomolePerGramPerDay,,nanomole/gram/day,molePerKilogramPerSecond,,0.0000000000115741,nmol/g/d,amountOfSubstanceWeightRate
-micromolePerGramPerSecond,micromolePerGramPerSecond,,micromole/gram/second,molePerKilogramPerSecond,,0.001,nmol/g/s,amountOfSubstanceWeightRate
-micromolePerGramPerHour,micromolePerGramPerHour,,micromole/gram/hour,molePerKilogramPerSecond,,0.000000277778,nmol/g/h,amountOfSubstanceWeightRate
-micromolePerGramPerDay,micromolePerGramPerDay,,micromole/gram/day,molePerKilogramPerSecond,,0.0000000115741,nmol/g/d,amountOfSubstanceWeightRate
-kilogramsPerSecond,kilogramsPerSecond,kilogramPerSecond,kilogram/second,,,1,kg/s,massRate
-tonnesPerYear,tonnesPerYear,tonnePerYear,metric_ton/common_year,kilogramPerSecond,,0.0000317,,massRate
-gramsPerYear,gramsPerYear,gramPerYear,gram/common_year,kilogramPerSecond,,0.0000000000317,g/yr,massRate
-gramPerYear,gramPerYear,,gram/common_year,kilogramPerSecond,,0.00000000003170979,g/yr,massRate
-kilogramPerSecond,kilogramPerSecond,,kilogram/second,kilogramPerSecond,,1,kg/s,massRate
-tonnePerYear,tonnePerYear,,metric_ton/common_year,kilogramPerSecond,,0.00003170979,t/yr,massRate
-numberPerMeterSquared,numberPerMeterSquared,,count/meter^2,,,1,,arealDensity
-numberPerKilometerSquared,numberPerKilometerSquared,,count/kilometer^2,numberPerMeterSquared,,0.000001,,arealDensity
-numberPerHectare,numberPerHectare,,count/hectare,numberPerMeterSquared,,0.0001,#/hectare,arealDensity
-numberPerMeterCubed,numberPerMeterCubed,,count/meter^3,,,1,,volumetricDensity
-numberPerLiter,numberPerLiter,,count/liter,numberPerMeterCubed,,1000,,volumetricDensity
-numberPerMilliliter,numberPerMilliliter,,count/milliliter,numberPerMeterCubed,,1000000,,volumetricDensity
-metersPerGram,metersPerGram,meterPerGram,meter/gram,,,1,m/g,massSpecificLength
-meterPerGram,meterPerGram,,meter/gram,meterPerGram,,1,m/g,massSpecificLength
-numberPerGram,numberPerGram,,count/gram,,,1,,massSpecificCount
-gramsPerGram,gramsPerGram,gramPerGram,gram/gram,,,1,,massPerMass
-microgramsPerGram,microgramsPerGram,microgramPerGram,microgram/gram,gramsPerGram,,0.000001,,massPerMass
-gramPerGram,gramPerGram,,gram/gram,gramPerGram,,1,g/g,massPerMass
-milligramPerKilogram,milligramPerKilogram,,milligram/kilogram,gramPerGram,,0.000001,mg/kg,massPerMass
-microgramPerGram,microgramPerGram,,microgram/gram,gramPerGram,,0.000001,μg/g,massPerMass
-nanogramPerGram,nanogramPerGram,,nanogram/gram,gramPerGram,,0.000000001,ng/g,massPerMass
-microgramPerGramPerHour,microgramPerGramPerHour,,microgram/gram/hour,gramPerGramPerSecond,,0.000000000277778,μg/g/h,massPerMassRate
-microgramPerGramPerDay,microgramPerGramPerDay,,microgram/gram/day,gramPerGramPerSecond,,0.0000000000115741,μg/g/day,massPerMassRate
-microgramPerGramPerWeek,microgramPerGramPerWeek,,microgram/gram/week,gramPerGramPerSecond,,0.00000000000165344,μg/g/week,massPerMassRate
-nanogramPerGramPerHour,nanogramPerGramPerHour,,nanogram/gram/hour,gramPerGramPerSecond,, 0.000000277778,ng/g,massPerMassRate
-cubicCentimetersPerCubicCentimeters,cubicCentimetersPerCubicCentimeters,meterCubedPerMeterCubed,centimeter^3/centimeter^3,,,1,,volumePerVolume
-meterCubedPerMeterCubed,meterCubedPerMeterCubed,,meter^3/meter^3,meterCubedPerMeterCubed,,1,m³/m³,volumePerVolume
-literPerLiter,literPerLiter,,liter/liter,meterCubedPerMeterCubed,,1,l/l,volumePerVolume
-milliliterPerLiter,milliliterPerLiter,,milliliter/liter,meterCubedPerMeterCubed,,0.001,ml/l,volumePerVolume
-microliterPerLiter,microliterPerLiter,,microliter/liter,meterCubedPerMeterCubed,,0.000001,μl/l,volumePerVolume
-nanoliterPerLiter,nanoliterPerLiter,,nanoliter/liter,meterCubedPerMeterCubed,,0.000000001,nl/l,volumePerVolume
-molePerMole,molePerMole,,mole/mole,molePerMole,,1,mol/mol,
-millimolePerMole,millimolePerMole,,millimole/mole,molePerMole,,.001,mmol/mol,
-micromolePerMole,micromolePerMole,,micromole/mole,molePerMole,,.000001,μmol/mol,
-nanomolePerMole,nanomolePerMole,,nanomole/mole,molePerMole,,.000000001,nmol/mol,
-molePerKilogram,molePerKilogram,,mole/kilogram,molePerKilogram,,1,mol/kg,
-millimolePerKilogram,millimolePerKilogram,,millimole/kilogram,molePerKilogram,,0.001,mmol/kg,
-micromolePerKilogram,micromolePerKilogram,,micromole/kilogram,molePerKilogram,,0.000001,µmol/kg,
-nanomolePerKilogram,nanomolePerKilogram,,nanomole/kilogram,molePerKilogram,,0.000000001,nmol/kg,
-percent,percent,,percent,dimensionless,,1,%,dimensionless
-permil,permil,,percent,dimensionless,,1,o/oo,dimensionless
-wattPerMeterSquared,wattPerMeterSquared,,watt/meter^2,wattPerMeterSquared,,1,W/m²,
-kilowattPerMeterSquared,kilowattPerMeterSquared,,kilowatt/meter^2,wattPerMeterSquared,,1000,kW/m²,
-wattPerMeterSquaredPerSteradian,wattPerMeterSquaredPerSteradian,,watt/meter^2/steradian,wattPerMeterSquaredPerSteradian,,1,W/m²/sr,
-microwattPerCentimeterSquaredPerSteradian,microwattPerCentimeterSquaredPerSteradian,,microwatt/centimeter^2/steradian,wattPerMeterSquaredPerSteradian,,0.0000001,µW/cm²/sr,
-wattPerMeterSquaredPerNanometer,wattPerMeterSquaredPerNanometer,,watt/meter^2/nm,wattPerMeterSquaredPerMeter,,0.000000001,W/m²/nm,
-microwattPerCentimeterSquaredPerNanometer,microwattPerCentimeterSquaredPerNanometer,,microwatt/centimeter^2/nm,wattPerMeterSquaredPerMeter,,0.0000001,µW/cm²/nm,
-wattPerMeterSquaredPerNanometerPerSteradian,wattPerMeterSquaredPerNanometerPerSteradian,,watt/meter^2/nm/steradian,wattPerMeterSquaredPerMeterPerSteradian,,0.000000001,W/m²/nm/sr,
-microwattPerCentimeterSquaredPerNanometerPerSteradian,microwattPerCentimeterSquaredPerNanometerPerSteradian,,microwatt/centimeter^2/nm/steradian,wattPerMeterSquaredPerMeterPerSteradian,,0.0000001,µW/cm²/nm/sr,
-molePerMeterSquaredPerSecond,molePerMeterSquaredPerSecond,,mole/meter^2/second,molePerMeterSquaredPerSecond,,1,mol/m²/s,
-micromolePerMeterSquaredPerSecond,micromolePerMeterSquaredPerSecond,,micromole/meter^2/second,molePerMeterSquaredPerSecond,,0.000001,µmol/m²/s,
-micromolePerCentimeterSquaredPerSecond,micromolePerCentimeterSquaredPerSecond,,micromole/centimeter^2/second,molePerMeterSquaredPerSecond,,0.01,µmol/cm²/s,
-megajoulePerMeterSquaredPerDay,megajoulePerMeterSquaredPerDay,,megajoule/m^2/day,joulePerMeterSquaredPerSecond,0,11.5741,MJ/m2/day,arealEnergyDensityRate
-langleyPerDay,langleyPerDay,,langley/day,joulePerMeterSquaredPerSecond,0,0.484259,Ly/day,arealEnergyDensityRate
+id,name,deprecatedInFavorOf,udunitSynonym,parentSi,constantToSi,multiplierToSi,abbreviation,unitType,description
+dimensionless,dimensionless,,,,,,,dimensionless,a designation asserting the absence of an associated unit
+second,second,,second,,,1,sec,time,SI unit of time
+meter,meter,,meter,,,1,m,length,SI unit of length
+kilogram,kilogram,,kilogram,,,1,kg,mass,SI unit of mass
+kelvin,kelvin,,kelvin,,,1,K,temperature,SI unit of temperature
+coulomb,coulomb,,coulomb,,,1,C,charge,SI unit of charge
+ampere,ampere,,ampere,,,1,A,current,SI unit of electrical current
+mole,mole,,mole,,,1,mol,amount,SI unit of substance amount
+candela,candela,,candela,,,1,cd,luminosity,SI base unit of luminous intensity (luminous power per unti solid angle emitted by a point light source in a particular direction)
+number,number,,count,,,,,dimensionless,a quantity or amount
+cubicMeter,cubicMeter,meterCubed,meter^3,,,1,m³,volume,cubic meter
+nominalMinute,nominalMinute,,minute,second,,60,,time,one minute of time excluding leap seconds, 60 seconds
+nominalHour,nominalHour,,hour,second,,3600,,time,one hour excluding leap seconds, 3600 seconds
+nominalDay,nominalDay,,day,second,,86400,,time,one day excluding leap seconds, 86400 seconds
+nominalWeek,nominalWeek,,week,second,,604800,,time,one day excluding leap seconds, 604800 seconds
+nominalYear,nominalYear,,common_year,second,,31536000,,time,one year excluding leap seconds and leap days, 31536000 seconds
+nominalLeapYear,nominalLeapYear,,leap_year,second,,31622400,,time,one 366 day year excluding leap seconds, 31622400 seconds
+nanogram,nanogram,,nanogram,kilogram,,0.000000000001,ng,mass,0.000000000001 kg
+microgram,microgram,,microgram,kilogram,,0.000000001,μg,mass,0.000000001 kg
+milligram,milligram,,milligram,kilogram,,0.000001,mg,mass,0.000001 kg
+centigram,centigram,,centigram,kilogram,,0.00001,cg,mass,0.00001 kg
+decigram,decigram,,decigram,kilogram,,0.0001,dg,mass,0.0001 kg
+gram,gram,,gram,kilogram,,0.001,g,mass,0.001 kg
+dekagram,dekagram,,dekagram,kilogram,,0.01,dag,mass,.01 kg
+hectogram,hectogram,,hectogram,kilogram,,0.1,hg,mass,.1 kg
+megagram,megagram,,megagram,kilogram,,1000,Mg,mass,1000 kg
+tonne,tonne,,metric_ton,kilogram,,1000,T,mass,unit of mass equal to 1,000 kilograms, equivalent to approximately 2,204.6 pounds,1.102 short tons (US) or 0.984 long tons (imperial). Not part of the SI, but accepted for use with SI units and prefixes
+pound,pound,,avoirdupois_pound,kilogram,,0.4536,lbs,,1 pound (symbol lb) in the Avoirdupois (commerce) scale, and defined as exactly 0.45359237 kg. Also equal to 16 avoirdupois ounces and to 7,000 grains.
+ton,ton,,short_ton,kilogram,,907.1999,ton,,standard US (short) ton = 2000 lbs
+celsius,celsius,,celsius,kelvin,273.18,1,C,,A common unit of temperature
+fahrenheit,fahrenheit,,fahrenheit,kelvin,255.402,0.556,F,,unit for temperature on the scale in which water freezes at 32 and boils at 212 under standard conditions.
+nanometer,nanometer,,nanometer,meter,,0.000000001,nm,,.000000001 meters
+micrometer,micrometer,,micrometer,meter,,0.000001,μm,,.000001 meters
+micron,micron,micrometer,micrometer,meter,,0.000001,μ,,.000001 meters
+millimeter,millimeter,,millimeter,meter,,0.001,mm,,.001 meters
+centimeter,centimeter,,centimeter,meter,,0.01,cm,,.01 meters
+decimeter,decimeter,,decimeter,meter,,0.1,dm,,.1 meters
+dekameter,dekameter,,dekameter,meter,,10,dam,,10 meters
+hectometer,hectometer,,hectometer,meter,,100,hm,,100 meters
+kilometer,kilometer,,kilometer,meter,,1000,km,,1000 meters
+megameter,megameter,,megameter,meter,,1000000,Mm,,1000000 meters
+angstrom,angstrom,,angstrom,meter,,0.0000000001,Å,,1/10000000000 meter
+inch,inch,,international_inch,meter,,0.0254,in,,unit of length in the (British) imperial and United States systems usually understood as 1/12 f a foot.
+Foot_US,Foot_US,,US_survey_foot,meter,,0.3048006,usft,,12 inches
+foot,foot,,international_foot,meter,,0.3048,ft,,12 inches
+Foot_Gold_Coast,Foot_Gold_Coast,,,meter,,0.3047997,gcft,,12 inches
+fathom,fathom,,fathom,meter,,1.8288,,,6 feet
+nauticalMile,nauticalMile,,nautical_mile,meter,,1852,,,defined as exactly 1,852 meters (6,076.1 ft; 1.1508 mi). Historically, defined as one minute of latitude.
+yard,yard,,international_yard,meter,,0.9144,yard,,3 feet
+Yard_Indian,Yard_Indian,,,meter,,0.914398530744440774,,,This is an ESRI unit and the multiplier comes from ESRI. It may not be accurate.
+Link_Clarke,Link_Clarke,,,meter,,0.2011661949,,,This is an ESRI unit and the multiplier comes from ESRI. It may not be accurate.
+Yard_Sears,Yard_Sears,yard,,meter,,0.91439841461602867,,,This is an ESRI unit and the multiplier comes from ESRI. It may not be accurate.
+mile,mile,,international_mile,meter,,1609.344,mile,,5280 ft or 1609.344 meters
+nanosecond,nanosecond,,nanosecond,second,,0.000000001,nsec,,1/1000000 of a second
+microsecond,microsecond,,microsecond,second,,0.000001,μsec,,1/100000 of a second
+millisecond,millisecond,,millisecond,second,,0.001,msec,,1/1000 of a second
+centisecond,centisecond,,centisecond,second,,0.01,csec,,1/100 of a second
+decisecond,decisecond,,decisecond,second,,0.1,dsec,,1/10 of a second
+dekasecond,dekasecond,,dekasecond,second,,10,dasec,,10 seconds
+hectosecond,hectosecond,,hectosecond,second,,100,hsec,,100 seconds
+kilosecond,kilosecond,,kilosecond,second,,1000,ksec,,1000 seconds
+megasecond,megasecond,,megasecond,second,,1000000,Msec,,1000000 seconds
+minute,minute,,minute,second,,60,min,,60 seconds
+hour,hour,,hour,second,,3600,hr,,3600 seconds
+kiloliter,kiloliter,,kiloliter,cubicMeter,,1,kL,volume,1 cubic meter
+microliter,microliter,,microliter,cubicMeter,,0.000000001,μl,volume,1/1000000 of a liter
+milliliter,milliliter,,milliliter,cubicMeter,,0.000001,ml,volume,1/1000 of a liter
+liter,liter,,liter,cubicMeter,,0.001,L,volume,1000 cm^3
+gallon,gallon,,US_liquid_gallon,liter,,3.785412,gal,,US liquid gallon
+quart,quart,,US_liquid_quart,liter,,0.946353,qt,,US liquid quart
+bushel,bushel,,bushel,liter,,35.23907,b,volume,1 bushel = 35.23907 liters
+cubicInch,cubicInch,inchCubed,international_inch^3,liter,,0.01638706,in³,volume,cubic inch
+pint,pint,,US_liquid_pint,liter,,0.473176,pint,,US liquid pint
+meterCubed,meterCubed,,meter^3,meterCubed,,1,m³,volume,cubic meter
+centimeterCubed,centimeterCubed,,centimeter^3,meterCubed,,0.000001,cm³,volume,cubic meter
+inchCubed,inchCubed,,international_inch^3,liter,,0.01638706,in³,volume,micromoles per square meter per second
+radian,radian,,radian,,,1,rad,angle,2 pi radians comprise a unit circle.
+degree,degree,,arc_degree,radian,,0.0174532924,º,angle,360 degrees comprise a unit circle
+grad,grad,,,radian,,0.015707,grad,angle,a plane angle equivalent to 1/400 of a full circle
+steradian,steradian,,steradian,,,1,sr,angle,standard unit of solid angle measure, it is the solid angle which cuts out an area on a sphere that is the square of the sphere's radius; as a ratio of two areas, it has no dimension
+megahertz,megahertz,,megahertz,hertz,,1000000,MHz,frequency,megahertz
+kilohertz,kilohertz,,kilohertz,hertz,,1000,KHz,frequency,kilohertz
+hertz,hertz,,hertz,,,1,Hz,frequency,derived unit of frequency in the SI, defined as one cycle per second
+millihertz,millihertz,,millihertz,hertz,,0.001,mHz,frequency,millihertz
+newton,newton,,newton,,,1,N,force,newton
+joule,joule,,joule,,,1,J,energy,joule = N*m
+calorie,calorie,,IT_calorie,joule,,4.1868,cal,energy,unit of energy: amount of energy to raise the temperature of one gram of water by one degree Celsius at a pressure of one atmosphere. cal = 4.1868 J
+britishThermalUnit,britishThermalUnit,,IT_Btu,joule,,1055.0559,btu,energy,an energy unit: 1 btu = 1055.0559 J
+footPound,footPound,,international_foot pound_force,joule,,1.355818,,energy,1 ft-lbs = 1.355818 J
+langley,langley,,langley,joulePerMeterSquared,0,41840,Ly,arealEnergyDensity,unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2
+lumen,lumen,,lumen,,,1,lm,luminosity,SI unit for the total quantity of visible light in a defined beam or angle. 1 lumen/m^2 = 1 lux. 1 lumen = 1 candela * steradian
+lux,lux,,lux,,,1,lx,illuminance,SI derived unit for illuminance, or luminous flux per unit area. 1 lx = 1 lm/m^2 = 1 cd * sr/m^2
+becquerel,becquerel,,becquerel,,,1,Bq,radionucleotideActivity,SI derived unit of radioactivity. the activity of a quantity of radioactive material in which one nucleus decays per second, and equivalent to an inverse second, s^-1.
+gray,gray,,gray,,,1,Gy,specificEnergy,SI derived unit of ionizing radiation, defined as the absorption of one joule of radiation energy per kilogram of matter (= 1 J/kg)
+sievert,sievert,,sievert,,,1,Sv,doseEquivalent,SI derived unit of ionizing radiation dose (health effect of low levels of ionizing radiation on humans). 1 Sv = 100 rem (rem is an older, non-SI unit)
+katal,katal,,katal,,,1,kat,catalyticActivity,derived SI unit for quantifying enzymatic activity.A property of the catalyst (not rate of reaction), expressed in moles/second.
+henry,henry,,henry,,,1,H,inductance,SI derived unit for inductance; in SI base units: kg * m^2 * s^-2 * A^-2
+megawatt,megawatt,,megawatt,watt,,1000000,MW,power,unit of power, to quantify rate of energy transfer. 1 W = J/s
+kilowatt,kilowatt,,kilowatt,watt,,1000,kW,power,unit of power, to quantify rate of energy transfer. 1 W = J/s
+watt,watt,,watt,,,1,W,power,unit of power, to quantify rate of energy transfer. 1 W = J/s
+milliwatt,milliwatt,,milliwatt,watt,,0.001,mW,power,unit of power, to quantify rate of energy transfer. 1 W = J/s
+megavolt,megavolt,,megavolt,volt,,1000000,MV,potentialDifference,Derived unit for electric potential, electric potential difference, and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1
+kilovolt,kilovolt,,kilovolt,volt,,1000,kV,potentialDifference,Derived unit for electric potential, electric potential difference, and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1
+volt,volt,,volt,,,1,V,potentialDifference,Derived unit for electric potential, electric potential difference, and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1
+millivolt,millivolt,,millivolt,volt,,0.001,mV,potentialDifference,Derived unit for electric potential, electric potential difference, and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1
+farad,farad,,farad,,,1,F,capacitance,SI derived unit of electrical capacitance, the ability of a body to store an electrical charge. 1 F = s^4 * A^2 *m^-2 * kg^-1
+ohm,ohm,,ohm,,,1,Ω,resistance,an electrical resistance between two points of a conductor when a constant potential difference of one volt, applied to these points, produces in the conductor a current of one ampere
+ohmMeter,ohmMeter,,ohm meter,,,1,Ωm,resistivity,SI unit of electrical resistivity (fundamental property that quantifies how strongly a material opposes the flow of electric current). reciprocal of electrical conductivity.
+siemensPerMeter,siemensPerMeter,,siemens/meter,siemensPerMeter,,1,S/m,,SI unit for conductivity, measure of a material's ability to conduct an electric current.
+siemensPerCentimeter,siemensPerCentimeter,,siemens/centimeter,siemensPerMeter,,.01,S/cm,,SI unit for conductivity, measure of a material's ability to conduct an electric current.
+siemen,siemen,siemens,siemens,,,1,S,conductance,siemens
+siemens,siemens,,siemens,siemens,,1,S,,SI derived unit of electric conductance, susceptance and admittance (reciprocals of resistance, reactance, and impedance respectively). One siemens is equal to the reciprocal of one ohm (and also called "mho")
+weber,weber,,weber,,,1,Wb,magneticFlux,the SI unit of magnetic flux
+tesla,tesla,,tesla,,,1,T,magneticFluxDensity,unit for flux density. 1 tesla = 1 Wb/m^2 (one weber per square meter).
+pascal,pascal,,pascal,,,1,Pa,pressure,SI derived unit of pressure, 1 pascal = 1 newton/m^2
+megapascal,megapascal,,megapascal,pascal,,1000000,MPa,pressure,SI derived unit of pressure, 1 pascal = 1 newton/m^2
+kilopascal,kilopascal,,kilopascal,pascal,,1000,kPa,pressure,SI derived unit of pressure, 1 pascal = 1 newton/m^2
+hectopascal,hectopascal,,hectopascal,pascal,,100,hPa,pressure,SI derived unit of pressure, 1 pascal = 1 newton/m^2
+atmosphere,atmosphere,,standard_atmosphere,pascal,,101325,atm,pressure,unit of pressure defined as 101325 Pa (1.01325 bar), sometimes used as a reference or standard pressure
+bar,bar,,bar,pascal,,100000,bar,pressure,non-SI unit for pressure (deprecated in some fields). 1 bar = 100000 Pa
+millibar,millibar,,millibar,pascal,,100,mbar,pressure,non-SI unit for pressure (deprecated in some fields). 1 millibar = 1 hPa (100 Pa)
+decibar,decibar,,decibar,pascal,,10000,dbar,pressure,non-SI unit for pressure. 1 decibar = .1 bar. Decibars are commonly used in aquatic environments because 1 db is approximately equal to depth in meters.
+kilogramsPerSquareMeter,kilogramsPerSquareMeter,kilogramPerMeterSquared,kilogram/meter^2,,,1,kg/m²,arealMassDensity,kilograms per square meter
+gramsPerSquareMeter,gramsPerSquareMeter,gramPerMeterSquared,gram/meter^2,kilogramPerMeterSquared,,0.001,g/m²,arealMassDensity,grams per square meter
+milligramsPerSquareMeter,milligramsPerSquareMeter,milligramPerMeterSquared,milligram/meter^2,kilogramPerMeterSquared,,0.000001,mg/m²,arealMassDensity,milligrams Per Square Meter
+kilogramsPerHectare,kilogramsPerHectare,kilogramPerHectare,kilogram/hectare,kilogramPerMeterSquared,,0.0001,,arealMassDensity,kilograms per hectare
+tonnePerHectare,tonnePerHectare,,metric_ton/hectare,kilogramPerMeterSquared,,0.1,,arealMassDensity,metric ton or tonne per hectare
+poundsPerSquareInch,poundsPerSquareInch,poundPerInchSquared,avoirdupois_pound/international_inch^2,kilogramPerMeterSquared,,703.0696,lbs/in²,arealMassDensity,lbs/square inch
+gramPercentimeterSquared,gramPercentimeterSquared,,gram/cm^2,kilogramPerMeterSquared,,10,g/cm²,arealMassDensity,grams per square meter
+gramPerMeterSquared,gramPerMeterSquared,,gram/meter^2,kilogramPerMeterSquared,,0.001,g/m²,arealMassDensity,grams per square meter
+kilogramPerHectare,kilogramPerHectare,,kilogram/hectare,kilogramPerMeterSquared,,0.0001,kg/hectare,arealMassDensity,kilograms per hectare
+kilogramPerMeterSquared,kilogramPerMeterSquared,,kilogram/meter^2,kilogramPerMeterSquared,,1,kg/m²,arealMassDensity,kilograms per square meter
+milligramPerMeterSquared,milligramPerMeterSquared,,milligram/meter^2,kilogramPerMeterSquared,,0.000001,mg/m²,arealMassDensity,milligrams Per Square Meter
+poundPerAcre,poundPerAcre,,avoirdupois_pound/acre,kilogramPerMeterSquared,,0.000112084667279431,lb/acre,arealMassDensity,avoirdupois pounds per acre
+poundPerInchSquared,poundPerInchSquared,,avoirdupois_pound/international_inch^2,kilogramPerMeterSquared,,703.0696,lbs/in²,arealMassDensity,avoirdupois pounds per square inch
+kilogramPerCubicMeter,kilogramPerCubicMeter,kilogramPerMeterCubed,kilogram/meter^3,,,1,,massDensity,kilogram per cubic meter
+milliGramsPerMilliLiter,milliGramsPerMilliLiter,milligramPerMilliliter,milligram/milliliter,kilogramPerMeterCubed,,1,kg/m³,massDensity,milligrams per milliliter
+gramsPerLiter,gramsPerLiter,gramPerLiter,gram/liter,kilogramPerMeterCubed,,1,g/l,massDensity,grams per liter
+milligramsPerCubicMeter,milligramsPerCubicMeter,milligramPerMeterCubed,milligram/meter^3,kilogramPerMeterCubed,,0.000001,mg/m³,massDensity,milligrams Per Cubic Meter
+microgramsPerLiter,microgramsPerLiter,microgramPerLiter,microgram/liter,kilogramPerMeterCubed,,0.000001,μg/l,massDensity,micrograms/liter
+milligramsPerLiter,milligramsPerLiter,milligramPerLiter,milligram/liter,kilogramPerMeterCubed,,0.001,mg/l,massDensity,milligrams/liter
+gramsPerCubicCentimeter,gramsPerCubicCentimeter,gramPerCentimeterCubed,gram/centimeter^3,kilogramPerMeterCubed,,1000,g/cm³,massDensity,grams per cubic centimeter
+gramsPerMilliliter,gramsPerMilliliter,gramPerMilliliter,gram/milliliter,kilogramPerMeterCubed,,1000,g/ml,massDensity,grams per milliliter
+gramPerCentimeterCubed,gramPerCentimeterCubed,,gram/centimeter^3,kilogramPerMeterCubed,,1000,g/cm³,massDensity,grams per cubic centimeter
+gramPerLiter,gramPerLiter,,gram/liter,kilogramPerMeterCubed,,1,g/l,massDensity,grams per liter
+gramPerMilliliter,gramPerMilliliter,,gram/milliliter,kilogramPerMeterCubed,,1000,g/ml,massDensity,grams per milliliter
+microgramPerLiter,microgramPerLiter,,microgram/liter,kilogramPerMeterCubed,,0.000001,μg/l,massDensity,micrograms/liter
+milligramPerLiter,milligramPerLiter,,milligram/liter,kilogramPerMeterCubed,,0.001,mg/l,massDensity,milligrams/liter
+milligramPerMeterCubed,milligramPerMeterCubed,,milligram/meter^3,kilogramPerMeterCubed,,0.000001,mg/m³,massDensity,milligrams Per Cubic Meter
+kilogramPerMeterCubed,kilogramPerMeterCubed,,kilogram/meter^3,kilogramPerMeterCubed,,1,kg/m³,massDensity,kilograms per cubic meter
+megagramPerMeterCubed,megagramPerMeterCubed,,megagram/meter^3,kilogramPerMeterCubed,,1000,Mg/m³,massDensity,megagrams per cubic meter
+milligramPerMilliliter,milligramPerMilliliter,,milligram/milliliter,kilogramPerMeterCubed,,1,mg/ml,massDensity,micromoles per square meter per second
+gramsPerLiterPerDay,gramsPerLiterPerDay,gramPerDayPerLiter,gram/liter/day,,,1,,volumetricMassDensityRate,grams Per (Liter Per Day)
+milligramPerMeterCubedPerDay,milligramPerMeterCubedPerDay,,milligram/meter^3/day,kilogramPerMeterCubedPerSecond,,0.0000015741,mg/m3/d,volumetricMassDensityRate,milligram per cubic meter per day
+gramPerDayPerLiter,gramPerDayPerLiter,,gram/day/liter,gramPerDayPerLiter,,1,g/d/l,volumetricMassDensityRate,grams Per (Liter Per Day)
+litersPerSecond,litersPerSecond,literPerSecond,liter/second,,,1,l/s,volumetricRate,liters per second
+cubicMetersPerSecond,cubicMetersPerSecond,meterCubedPerSecond,meter^3/second,literPerSecond,,1000,m³/s,volumetricRate,cubic meters per second
+cubicFeetPerSecond,cubicFeetPerSecond,footCubedPerSecond,international_foot^3/second,literPerSecond,,28.316874,ft³/s,volumetricRate,cubic feet per second
+footCubedPerSecond,footCubedPerSecond,,international_foot^3/second,literPerSecond,,28.316874,ft³/s,volumetricRate,cubic feet per second
+literPerSecond,literPerSecond,,liter/second,literPerSecond,,1,l/s,volumetricRate,liters per second
+meterCubedPerSecond,meterCubedPerSecond,,meter^3/second,literPerSecond,,1000,m³/s,volumetricRate,cubic meters per second
+squareMeter,squareMeter,meterSquared,meter^2,,,1,m²,area,square meters
+are,are,,are,squareMeter,,100,a,area,100 square meters
+hectare,hectare,,hectare,squareMeter,,10000,ha,area,1 hectare is 10^4 square meters
+squareKilometers,squareKilometers,kilometerSquared,kilometer^2,squareMeter,,1000000,,area,square kilometers
+squareMillimeters,squareMillimeters,millimeterSquared,millimeter^2,squareMeter,,0.000001,,area,square millmeters
+squareCentimeters,squareCentimeters,centimeterSquared,centimeter^2,squareMeter,,0.0001,,area,square centimeters
+acre,acre,,acre,squareMeter,,4046.8564,a,area,1 acre = 4046.8564 square meters or 1 hectare = 2.4710 acres
+squareFoot,squareFoot,footSquared,international_foot^2,squareMeter,,0.092903,ft²,area,12 inches squared
+squareYard,squareYard,yardSquared,international_yard^2,squareMeter,,0.836131,yd²,area,36 inches squared
+squareMile,squareMile,mileSquared,international_mile^2,squareMeter,,2589998.49806,mile²,area,1 mile squared
+centimeterSquared,centimeterSquared,,centimeter^2,meterSquared,,0.0001,cm²,area,square centimeter
+footSquared,footSquared,,international_foot^2,meterSquared,,0.092903,ft²,area,12 inches squared
+kilometerSquared,kilometerSquared,,kilometer^2,meterSquared,,1000000,km²,area,square kilometer
+meterSquared,meterSquared,,meter^2,meterSquared,,1,m²,area,square meters
+mileSquared,mileSquared,,international_mile^2,meterSquared,,2589998.49806,mile²,area,1 mile squared
+millimeterSquared,millimeterSquared,,millimeter^2,meterSquared,,0.000001,mm²,area,square millimeter
+yardSquared,yardSquared,,international_yard^2,meterSquared,,0.836131,yd²,area,36 inches squared
+litersPerSquareMeter,litersPerSquareMeter,literPerMeterSquared,liter/meter^2,,,1,l/m²,volumetricArea,liters per square meter
+bushelsPerAcre,bushelsPerAcre,bushelPerAcre,bushel/acre,literPerMeterSquared,,0.00870,,volumetricArea,bushels per acre, 1 bushel = 35.23907 liters/1 acre = 4046.8564 squareMeters
+litersPerHectare,litersPerHectare,literPerHectare,liter/hectare,literPerMeterSquared,,0.0001,,volumetricArea,liters per hectare
+bushelPerAcre,bushelPerAcre,,bushel/acre,literPerMeterSquared,,0.00870,bu/acre,volumetricArea,bushels per acre, 1 bushel = 35.23907 liters/1 acre = 4046.8564 squareMeters
+literPerHectare,literPerHectare,,liter/hectare,literPerMeterSquared,,0.0001,l/hectare,volumetricArea,liters per hectare
+literPerMeterSquared,literPerMeterSquared,,liter/meter^2,literPerMeterSquared,,1,l/m²,volumetricArea,liters per square meter
+meterCubedPerHectare,meterCubedPerHectare,,m^3/hectare,meterCubedPerMeterSquared,,0.0001,m3/ha,volumetricArea,meter cubed per hectare
+meterCubedPerMeterSquared,meterCubedPerMeterSquared,,m^3/m^2,meterCubedPerMeterSquared,,1,m^3/m^2,volumetricArea,meter cubed per meter squared
+meterSquaredPerHectare,meterSquaredPerHectare,,m^2/hectare,meterSquaredPerMeterSquared,,0.0001,m^2/ha,volumetricArea,meter squared per hectare
+squareMeterPerKilogram,squareMeterPerKilogram,meterSquaredPerKilogram,meter^2/kilogram,,,1,m²/kg,specificArea,square meters per kilogram
+meterSquaredPerKilogram,meterSquaredPerKilogram,,meter^2/kilogram,meterSquaredPerKilogram,,1,m²/kg,specificArea,square meters per kilogram
+metersPerSecond,metersPerSecond,meterPerSecond,meter/second,meterPerSecond,,1,m/s,speed,meters per second
+metersPerDay,metersPerDay,meterPerDay,meter/day,,,.0000115741,m/day,speed,meters per day
+feetPerDay,feetPerDay,footPerDay,international_foot/day,meterPerSecond,,0.00000352778,ft/day,speed,feet per day
+feetPerSecond,feetPerSecond,footPerSecond,international_foot/second,meterPerSecond,,0.3048,ft/s,speed,feet per second
+feetPerHour,feetPerHour,footPerHour,international_foot/hour,meterPerSecond,,0.000084667,ft/hr,speed,feet per hour
+yardsPerSecond,yardsPerSecond,yardPerSecond,international_yard/second,meterPerSecond,,0.9144,yd/s,speed,yards per second
+milesPerHour,milesPerHour,milePerHour,international_mile/hour,meterPerSecond,,0.44704,mph,speed,miles per hour
+milesPerSecond,milesPerSecond,milePerSecond,international_mile/second,meterPerSecond,,1609.344,mps,speed,miles per second
+milesPerMinute,milesPerMinute,milePerMinute,international_mile/minute,meterPerSecond,,26.8224,mpm,speed,miles per minute
+centimetersPerSecond,centimetersPerSecond,centimeterPerSecond,centimeter/second,meterPerSecond,,0.01,cm/s,speed,centimeters per second
+millimetersPerSecond,millimetersPerSecond,millimeterPerSecond,millimeter/second,meterPerSecond,,0.001,mm/s,speed,millimeters per second
+centimeterPerYear,centimeterPerYear,centimeterPerYear,centimeter/common_year,meterPerSecond,,0.000000000317098,cm/year,speed,centimeter Per Year
+knots,knots,knot,international_knot,meterPerSecond,,0.514444,,speed,knots
+kilometersPerHour,kilometersPerHour,kilometerPerHour,kilometer/hour,meterPerSecond,,0.2778,km/hr,speed,km/hr
+centimeterPerSecond,centimeterPerSecond,,centimeter/second,meterPerSecond,,0.01,cm/s,speed,centimeters per second
+footPerDay,footPerDay,,international_foot/day,meterPerSecond,,0.00000352778,ft/day,speed,feet per day
+footPerHour,footPerHour,,international_foot/hour,meterPerSecond,,0.000084667,ft/hr,speed,feet per hour
+footPerSecond,footPerSecond,,international_foot/second,meterPerSecond,,0.3048,ft/s,speed,feet per second
+inchPerHour,inchPerHour,,international_inch/hour,meterPerSecond,,0.00000705556,in/hr,speed,inches per hour
+kilometerPerHour,kilometerPerHour,,kilometer/hour,meterPerSecond,,0.2778,km/hr,speed,km/hr
+knot,knot,,international_knot,meterPerSecond,,0.514444444444444,knot,speed,unit of speed equal to one nautical mile per hour, exactly 1.852 km/hour
+meterPerDay,meterPerDay,,meter/day,meterPerSecond,,.0000115741,m/day,speed,meters per day
+meterPerSecond,meterPerSecond,,meter/second,meterPerSecond,,1,m/s,speed,meters per second
+milePerHour,milePerHour,,international_mile/hour,meterPerSecond,,0.44704,mph,speed,miles per hour
+milePerMinute,milePerMinute,,international_mile/minute,meterPerSecond,,26.8224,mpm,speed,miles per minute
+milePerSecond,milePerSecond,,international_mile/second,meterPerSecond,,1609.344,mps,speed,miles per second
+millimeterPerDay,millimeterPerDay,,millimeter/day,meterPerSecond,,0.00000001157407,mm/d,speed,millimeters per day
+millimeterPerSecond,millimeterPerSecond,,millimeter/second,meterPerSecond,,0.001,mm/s,speed,millimeters per second
+yardPerSecond,yardPerSecond,,international_yard/second,meterPerSecond,,0.9144,yd/s,speed,yards per second
+metersPerSecondSquared,metersPerSecondSquared,meterPerSecondSquared,meter/second^2,,,1,m/s²,acceleration,meters per second squared
+meterPerSecondSquared,meterPerSecondSquared,,meter/second^2,meterPerSecondSquared,,1,m/s²,acceleration,micromoles per square meter per second
+waveNumber,waveNumber,inverseMeter,meter^-1,,,1,,lengthReciprocal,1/meters
+inverseMeter,inverseMeter,,meter^-1,,,1,,lengthReciprocal,reciprocal of meter, or 1/meters
+inverseCentimeter,inverseCentimeter,,meter^-1,,,.01,,lengthReciprocal,also called reciprocal centimeter
+cubicMeterPerKilogram,cubicMeterPerKilogram,meterCubedPerKilogram,meter^3/kilogram,,,1,m³/kg,specificVolume,cubic meters per kilogram
+cubicMicrometersPerGram,cubicMicrometersPerGram,micrometerCubedPerGram,micrometer^3/gram,cubicMeterPerKilogram,,0.000000000000001,μm³/kg,specificVolume,cubic micrometers per gram
+meterCubedPerKilogram,meterCubedPerKilogram,,meter^3/kilogram,meterCubedPerKilogram,,1,m³/kg,specificVolume,cubic meters per kilogram
+micrometerCubedPerGram,micrometerCubedPerGram,,micrometer^3/gram,meterCubedPerKilogram,,0.000000000000001,μm³/kg,specificVolume,cubic micrometers per gram
+amperePerSquareMeter,amperePerSquareMeter,amperePerMeterSquared,ampere/meter^2,,,1,A/m²,currentDensity,ampere per meter squared, unit of current density
+amperePerMeterSquared,amperePerMeterSquared,,ampere/meter^2,amperePerMeterSquared,,1,A/m²,currentDensity,amperes per square meter, unit of current density
+amperePerMeter,amperePerMeter,,ampere/meter,,,1,A/m,magneticFieldStrength,ampere per meter
+molePerCubicMeter,molePerCubicMeter,molePerMeterCubed,mole/meter^3,,,1,,amountOfSubstanceConcentration,mole per cubic meter
+molarity,molarity,molePerLiter,mole/liter,molePerMeterCubed,,1000,M,amountOfSubstanceConcentration,molarity = moles/liter
+molePerMeterCubed,molePerMeterCubed,,mole/meter^3,molePerMeterCubed,,1,mol/m³,amountOfSubstanceConcentration,moles per cubic meter
+molePerLiter,molePerLiter,,mole/liter,molePerMeterCubed,,1000,mol/l,amountOfSubstanceConcentration,moles per liter (perferred over molarity, as molarity refers only to dissolved substances)
+millimolePerLiter,millimolePerLiter,,millimole/liter,molePerMeterCubed,,1,mmol/l,amountOfSubstanceConcentration,millimoles per liter
+micromolePerLiter,micromolePerLiter,,micromole/liter,molePerMeterCubed,,0.001,µmol/l,amountOfSubstanceConcentration,micromoles per liter
+nanomolePerLiter,nanomolePerLiter,,nanomole/liter,molePerMeterCubed,,0.000001,nmol/l,amountOfSubstanceConcentration,nanomoles per liter
+millimolePerMeterCubed,millimolePerMeterCubed,,millimole/meter^3,molePerMeterCubed,,.001,mol/m³,amountOfSubstanceConcentration,millimoles per cubic meter
+microequivalentPerLiter,microequivalentPerLiter,,,molePerMeterCubed,,,E/l,amountOfSubstanceConcentration,concentration of charge (on dissolved ions). conversions must know the name of the ion; a single multiplier to SI is not possible
+milliequivalentPerLiter,milliequivalentPerLiter,,,molePerMeterCubed,,,mE/l,amountOfSubstanceConcentration,concentration of charge (on dissolved ions). conversions must know the name of the ion; a single multiplier to SI is not possible
+equivalentPerLiter,equivalentPerLiter,,,molePerMeterCubed,,,µE/l,amountOfSubstanceConcentration,concentration of charge (on dissolved ions). conversions must know the name of the ion; a single multiplier to SI is not possible
+molality,molality,molePerKilogram,mole/kilogram,,,1,m,amountOfSubstanceWeight,molality = moles/kg
+millimolePerGram,millimolePerGram,,millimole/gram,molePerKilogram,,1,mmol/g,amountOfSubstanceWeight,millimoles per gram
+molePerGram,molePerGram,,mole/gram,molePerKilogram,,1000,mol/g,amountOfSubstanceWeight,moles per gram
+molePerKilogram,molePerKilogram,,mole/kilogram,molePerKilogram,,1,mol/kg,amountOfSubstanceWeight,moles per kilogram
+micromolePerGram,micromolePerGram,,micromole/gram,molePerKilogram,,0.001,umol/g,amountOfSubstanceWeight,millimoles per gram
+candelaPerSquareMeter,candelaPerSquareMeter,candelaPerMeterSquared,candela/meter^2,,,1,cd/m²,luminance,candela Per Square Meter (1 lux)
+candelaPerMeterSquared,candelaPerMeterSquared,,candela/meter^2,candelaPerMeterSquared,,1,cd/m²,luminance,candela Per Square Meter (1 lux)
+metersSquaredPerSecond,metersSquaredPerSecond,meterSquaredPerSecond,meter^2/second,,,1,m²/s,transmissivity,meters squared per second, SI unit for kinematic viscosity, specific relative angular momentum and thermal diffusivity. The unit may be better understood when phrased as "meter per second times meter" (velocity of an object with respect to a position).
+metersSquaredPerDay,metersSquaredPerDay,meterSquaredPerDay,meter^2/day,metersSquaredPerSecond,,0.00001157407,m²/day,transmissivity,meters squared per day
+feetSquaredPerDay,feetSquaredPerDay,footSquaredPerDay,international_foot^2/day,metersSquaredPerSecond,,0.000001075267,ft²/day,transmissivity,feet squared per day
+footSquaredPerDay,footSquaredPerDay,,international_foot^2/day,meterSquaredPerSecond,,0.000001075267,ft²/d,transmissivity,square feet per day
+meterSquaredPerDay,meterSquaredPerDay,,meter^2/day,meterSquaredPerSecond,,0.00001157407,m²/d,transmissivity,square meters per day
+meterSquaredPerSecond,meterSquaredPerSecond,,meter^2/second,meterSquaredPerSecond,,1,m²/s,transmissivity,meters squared per second, SI unit for kinematic viscosity, specific relative angular momentum and thermal diffusivity. The unit may be better understood when phrased as "meter per second times meter" (velocity of an object with respect to a position).
+kilogramsPerMeterSquaredPerSecond,kilogramsPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,kilogram/meter^2/second,,,1,,massFlux,kilograms per meter sqared per second
+gramsPerCentimeterSquaredPerSecond,gramsPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,gram/centimeter^2/second,kilogramPerMeterSquaredPerSecond,,10,,massFlux,grams Per Centimeter Squared Per Second
+gramsPerMeterSquaredPerYear,gramsPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,gram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.0000000000317098,,massFlux,grams Per Meter Squared Per Year
+gramsPerHectarePerDay,gramsPerHectarePerDay,gramPerDayPerHectare,gram/hectare/day,kilogramPerMeterSquaredPerSecond,,0.0000000000011574,,massFlux,grams Per Hectare Per Day
+kilogramsPerHectarePerYear,kilogramsPerHectarePerYear,kilogramPerHectarePerYear,kilogram/hectare/common_year,kilogramPerMeterSquaredPerSecond,,0.000000000003170979,,massFlux,kilograms Per Hectare Per Year
+kilogramsPerMeterSquaredPerYear,kilogramsPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,kilogram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000003170979,,massFlux,kilograms Per Meter Squared Per Year
+gramPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,,gram/centimeter^2/second,kilogramPerMeterSquaredPerSecond,,10,g/cm²/s,massFlux,grams per square centimeter per second
+gramPerDayPerHectare,gramPerDayPerHectare,,gram/day/hectare,kilogramPerMeterSquaredPerSecond,,0.000000000001157407,g/d/hectare,massFlux,grams Per Hectare Squared Per Day
+gramPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,,gram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000000003170979,g/m²/yr,massFlux,grams per square meter per year
+kilogramPerHectarePerYear,kilogramPerHectarePerYear,,kilogram/hectare/common_year,kilogramPerMeterSquaredPerSecond,,0.000000000003170979,kg/hectare/yr,massFlux,kilograms Per Hectare Per Year
+kilogramPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,,kilogram/meter^2/second,kilogramPerMeterSquaredPerSecond,,1,kg/m²/s,massFlux,kilograms per square meter per second
+kilogramPerMeterSquaredPerDay,kilogramPerMeterSquaredPerDay,,kilogram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000015741,kg/m²/d,massFlux,kilograms per square meter per day
+gramPerMeterSquaredPerDay,gramPerMeterSquaredPerDay,,kilogram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000000015741,kg/m²/d,massFlux,grams per square meter per day
+milligramPerMeterSquaredPerDay,milligramPerMeterSquaredPerDay,,milligram/meter^2/day,kilogramPerMeterSquaredPerSecond,,0.000000000015741,mg/m²/d,massFlux,milligram per square meter per day
+kilogramPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,,kilogram/meter^2/common_year,kilogramPerMeterSquaredPerSecond,,0.00000003170979,kg/m²/yr,massFlux,kilograms per square meter per year
+molesPerKilogram,molesPerKilogram,molePerKilogram,mole/kilogram,,,1,,amountOfSubstanceWeight,moles per kilogram
+molesPerGram,molesPerGram,molePerGram,mole/gram,molePerKilogram,,1000,,amountOfSubstanceWeight,moles per gram
+millimolesPerGram,millimolesPerGram,millimolePerGram,millimole/gram,molePerKilogram,,1,,amountOfSubstanceWeight,millimoles per gram
+molesPerKilogramPerSecond,molesPerKilogramPerSecond,molePerKilogramPerSecond,mole/kilogram/second,,,1,,amountOfSubstanceWeightRate,moles per kilogram per second
+nanomolesPerGramPerSecond,nanomolesPerGramPerSecond,nanomolePerGramPerSecond,nanomole/gram/second,molePerKilogramPerSecond,,0.000001,,amountOfSubstanceWeightRate,nanomoles Per Gram Per Second
+molePerKilogramPerSecond,molePerKilogramPerSecond,,mole/kilogram/second,molePerKilogramPerSecond,,1,mol/kg/s,amountOfSubstanceWeightRate,moles per kilogram per second
+nanomolePerGramPerSecond,nanomolePerGramPerSecond,,nanomole/gram/second,molePerKilogramPerSecond,,0.000001,nmol/g/s,amountOfSubstanceWeightRate,nanomoles Per Gram Per Second
+nanomolePerGramPerHour,nanomolePerGramPerHour,,nanomole/gram/hour,molePerKilogramPerSecond,,0.000000000277778,nmol/g/h,amountOfSubstanceWeightRate,nanomoles Per Gram Per Hour
+nanomolePerGramPerDay,nanomolePerGramPerDay,,nanomole/gram/day,molePerKilogramPerSecond,,0.0000000000115741,nmol/g/d,amountOfSubstanceWeightRate,nanomoles Per Gram Per day
+micromolePerGramPerSecond,micromolePerGramPerSecond,,micromole/gram/second,molePerKilogramPerSecond,,0.001,nmol/g/s,amountOfSubstanceWeightRate,micromoles Per Gram Per Second
+micromolePerGramPerHour,micromolePerGramPerHour,,micromole/gram/hour,molePerKilogramPerSecond,,0.000000277778,nmol/g/h,amountOfSubstanceWeightRate,micromoles Per Gram Per Hour
+micromolePerGramPerDay,micromolePerGramPerDay,,micromole/gram/day,molePerKilogramPerSecond,,0.0000000115741,nmol/g/d,amountOfSubstanceWeightRate,micromoles Per Gram Per day
+kilogramsPerSecond,kilogramsPerSecond,kilogramPerSecond,kilogram/second,,,1,kg/s,massRate,kilograms per second
+tonnesPerYear,tonnesPerYear,tonnePerYear,metric_ton/common_year,kilogramPerSecond,,0.0000317,,massRate,tonnes Per Year
+gramsPerYear,gramsPerYear,gramPerYear,gram/common_year,kilogramPerSecond,,0.0000000000317,g/yr,massRate,grams Per Year
+gramPerYear,gramPerYear,,gram/common_year,kilogramPerSecond,,0.00000000003170979,g/yr,massRate,grams Per Year
+kilogramPerSecond,kilogramPerSecond,,kilogram/second,kilogramPerSecond,,1,kg/s,massRate,kilograms per second
+tonnePerYear,tonnePerYear,,metric_ton/common_year,kilogramPerSecond,,0.00003170979,t/yr,massRate,tonnes Per Year
+numberPerMeterSquared,numberPerMeterSquared,,count/meter^2,,,1,,arealDensity,number per meter squared, e.g., for a population density.
+numberPerKilometerSquared,numberPerKilometerSquared,,count/kilometer^2,numberPerMeterSquared,,0.000001,,arealDensity,number per kilometer squared
+numberPerHectare,numberPerHectare,,count/hectare,numberPerMeterSquared,,0.0001,#/hectare,arealDensity,number per hectare
+numberPerMeterCubed,numberPerMeterCubed,,count/meter^3,,,1,,volumetricDensity,number per meter cubed
+numberPerLiter,numberPerLiter,,count/liter,numberPerMeterCubed,,1000,,volumetricDensity,number of entities per liter
+numberPerMilliliter,numberPerMilliliter,,count/milliliter,numberPerMeterCubed,,1000000,,volumetricDensity,number of entities per milliliter
+metersPerGram,metersPerGram,meterPerGram,meter/gram,,,1,m/g,massSpecificLength,meters per gram
+meterPerGram,meterPerGram,,meter/gram,meterPerGram,,1,m/g,massSpecificLength,meters per gram
+numberPerGram,numberPerGram,,count/gram,,,1,,massSpecificCount,number of entities per gram
+gramsPerGram,gramsPerGram,gramPerGram,gram/gram,,,1,,massPerMass,grams per gram
+microgramsPerGram,microgramsPerGram,microgramPerGram,microgram/gram,gramsPerGram,,0.000001,,massPerMass,micrograms per gram
+gramPerGram,gramPerGram,,gram/gram,gramPerGram,,1,g/g,massPerMass,grams per gram
+milligramPerKilogram,milligramPerKilogram,,milligram/kilogram,gramPerGram,,0.000001,mg/kg,massPerMass,milligrams per kilogram
+microgramPerGram,microgramPerGram,,microgram/gram,gramPerGram,,0.000001,μg/g,massPerMass,micrograms per gram
+nanogramPerGram,nanogramPerGram,,nanogram/gram,gramPerGram,,0.000000001,ng/g,massPerMass,micrograms per gram
+microgramPerGramPerHour,microgramPerGramPerHour,,microgram/gram/hour,gramPerGramPerSecond,,0.000000000277778,μg/g/h,massPerMassRate,micrograms per gram per hour
+microgramPerGramPerDay,microgramPerGramPerDay,,microgram/gram/day,gramPerGramPerSecond,,0.0000000000115741,μg/g/day,massPerMassRate,micrograms per gram per day
+microgramPerGramPerWeek,microgramPerGramPerWeek,,microgram/gram/week,gramPerGramPerSecond,,0.00000000000165344,μg/g/week,massPerMassRate,micrograms per gram per week
+nanogramPerGramPerHour,nanogramPerGramPerHour,,nanogram/gram/hour,gramPerGramPerSecond,, 0.000000277778,ng/g,massPerMassRate,nanoograms per gram per hour
+cubicCentimetersPerCubicCentimeters,cubicCentimetersPerCubicCentimeters,meterCubedPerMeterCubed,centimeter^3/centimeter^3,,,1,,volumePerVolume,cubic centimeters per cubic centimeter
+meterCubedPerMeterCubed,meterCubedPerMeterCubed,,meter^3/meter^3,meterCubedPerMeterCubed,,1,m³/m³,volumePerVolume,milliliters per liter
+literPerLiter,literPerLiter,,liter/liter,meterCubedPerMeterCubed,,1,l/l,volumePerVolume,milliliters per liter
+milliliterPerLiter,milliliterPerLiter,,milliliter/liter,meterCubedPerMeterCubed,,0.001,ml/l,volumePerVolume,milliliters per liter
+microliterPerLiter,microliterPerLiter,,microliter/liter,meterCubedPerMeterCubed,,0.000001,μl/l,volumePerVolume,milliliters per liter
+nanoliterPerLiter,nanoliterPerLiter,,nanoliter/liter,meterCubedPerMeterCubed,,0.000000001,nl/l,volumePerVolume,milliliters per liter
+molePerMole,molePerMole,,mole/mole,molePerMole,,1,mol/mol,,millimoles per mole
+millimolePerMole,millimolePerMole,,millimole/mole,molePerMole,,.001,mmol/mol,,millimoles per mole
+micromolePerMole,micromolePerMole,,micromole/mole,molePerMole,,.000001,μmol/mol,,millimoles per mole
+nanomolePerMole,nanomolePerMole,,nanomole/mole,molePerMole,,.000000001,nmol/mol,,millimoles per mole
+molePerKilogram,molePerKilogram,,mole/kilogram,molePerKilogram,,1,mol/kg,,micromoles per kilogram
+millimolePerKilogram,millimolePerKilogram,,millimole/kilogram,molePerKilogram,,0.001,mmol/kg,,micromoles per kilogram
+micromolePerKilogram,micromolePerKilogram,,micromole/kilogram,molePerKilogram,,0.000001,µmol/kg,,micromoles per kilogram
+nanomolePerKilogram,nanomolePerKilogram,,nanomole/kilogram,molePerKilogram,,0.000000001,nmol/kg,,micromoles per kilogram
+percent,percent,,percent,dimensionless,,1,%,dimensionless,percent, one part per hundred parts. a decimal ratio multipled by 100
+permil,permil,,percent,dimensionless,,1,o/oo,dimensionless,permil, one part per thousand parts. a decimal ratio multipled by 1000
+wattPerMeterSquared,wattPerMeterSquared,,watt/meter^2,wattPerMeterSquared,,1,W/m²,,watts per square meter, also, 1 kilogram per second cubed (ie, a flux)
+kilowattPerMeterSquared,kilowattPerMeterSquared,,kilowatt/meter^2,wattPerMeterSquared,,1000,kW/m²,,kilowatts per square meter
+wattPerMeterSquaredPerSteradian,wattPerMeterSquaredPerSteradian,,watt/meter^2/steradian,wattPerMeterSquaredPerSteradian,,1,W/m²/sr,,watts per square meter, in a solid angle
+microwattPerCentimeterSquaredPerSteradian,microwattPerCentimeterSquaredPerSteradian,,microwatt/centimeter^2/steradian,wattPerMeterSquaredPerSteradian,,0.0000001,µW/cm²/sr,,watts per square centimeter, in a solid angle
+wattPerMeterSquaredPerNanometer,wattPerMeterSquaredPerNanometer,,watt/meter^2/nm,wattPerMeterSquaredPerMeter,,0.000000001,W/m²/nm,,watts per square meter, per unit of wavelength
+microwattPerCentimeterSquaredPerNanometer,microwattPerCentimeterSquaredPerNanometer,,microwatt/centimeter^2/nm,wattPerMeterSquaredPerMeter,,0.0000001,µW/cm²/nm,,watts per square centimeter, per unit of wavelength
+wattPerMeterSquaredPerNanometerPerSteradian,wattPerMeterSquaredPerNanometerPerSteradian,,watt/meter^2/nm/steradian,wattPerMeterSquaredPerMeterPerSteradian,,0.000000001,W/m²/nm/sr,,watts per square meter, per unit of wavelength in a solid angle
+microwattPerCentimeterSquaredPerNanometerPerSteradian,microwattPerCentimeterSquaredPerNanometerPerSteradian,,microwatt/centimeter^2/nm/steradian,wattPerMeterSquaredPerMeterPerSteradian,,0.0000001,µW/cm²/nm/sr,,microwatts per square centimeter, per unit of wavelength, in a solid angle
+molePerMeterSquaredPerSecond,molePerMeterSquaredPerSecond,,mole/meter^2/second,molePerMeterSquaredPerSecond,,1,mol/m²/s,,micromoles per square meter per second
+micromolePerMeterSquaredPerSecond,micromolePerMeterSquaredPerSecond,,micromole/meter^2/second,molePerMeterSquaredPerSecond,,0.000001,µmol/m²/s,,micromoles per square meter per second
+micromolePerCentimeterSquaredPerSecond,micromolePerCentimeterSquaredPerSecond,,micromole/centimeter^2/second,molePerMeterSquaredPerSecond,,0.01,µmol/cm²/s,,micromoles per square centimeter per second
+megajoulePerMeterSquaredPerDay,megajoulePerMeterSquaredPerDay,,megajoule/m^2/day,joulePerMeterSquaredPerSecond,0,11.5741,MJ/m2/day,arealEnergyDensityRate,megajoules per square meter per day
+langleyPerDay,langleyPerDay,,langley/day,joulePerMeterSquaredPerSecond,0,0.484259,Ly/day,arealEnergyDensityRate,Langley (Ly) per day. Ly is a unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2
