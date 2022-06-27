@@ -1,0 +1,578 @@
+,Unit Name,Unit Count,exactMatch
+0,percent,34,1
+1,microSiemensPerCentimeter,24,0
+2,microsiemensPerCentimeter,22,0
+3,nephelometricTurbidityUnit,17,0
+4,microSiemenPerCentimeter,16,0
+5,nominalMonth,15,0
+6,microequivalentsPerLiter,14,0
+7,decimal degree,12,0
+8,partsPerMillion,12,0
+9,milligramsPerGram,11,0
+10,unitless,10,0
+11,numberPerHectare,8,1
+12,pH,7,0
+13,decimalDegree,7,0
+14,feet,7,0
+15,micromhosPerCentimeter,6,0
+16,microSeimenPerCentimeter,6,0
+17,percentSaturation,6,0
+18,millimetersPerYear,6,0
+19,NTU,6,0
+20,relativeFluorescenceUnits,5,0
+21,microMolar,5,0
+22,Day,5,0
+23,Posterior probability,5,0
+24,wattsPerSquareMeter,5,0
+25,partPerMillion,5,0
+26,wattsPerMeterSquared,5,0
+27,cubicMeterPerCubicMeter,5,0
+28,count,5,0
+29,nephelometricTurbidityUnits,5,0
+30,dimensionless,5,1
+31,perMil,5,0
+32,variable,5,0
+33,metersPerHectare,5,0
+34,day,5,0
+35,cellsPerMilliliter,4,0
+36,milligramsPerKilogram,4,0
+37,nephelometric turbidity units,4,0
+38,RelativeFluorescenceUnits,4,0
+39,microgramsPerGramPerDay,4,0
+40,gramPerKilogram,4,0
+41,milliSiemenPerCentimeter,4,0
+42,milligramPerGram,4,0
+43,megagramsPerHectare,4,0
+44,inchesPerYear,4,0
+45,millisiemensPerCentimeter,4,0
+46,millimetersPerHour,4,0
+47,QuinineSulfateUnits,3,0
+48,psig,3,0
+49,centimeterSquared,3,1
+50,numberPerMeterSquared,3,1
+51,pH units,3,0
+52,milligramsPerMeterSquaredPerDay,3,0
+53,micromolesPerSecondPerSquareMeter,3,0
+54,days,3,0
+55,NephelometricTurbidityUnits,3,0
+56,permil,3,1
+57,percentage,3,0
+58,number of fish,3,0
+59,nanogramsPerGram,3,0
+60,proportion,3,0
+61,decimalDegrees,3,0
+62,longitude,3,0
+63,minutes,3,0
+64,gramsPerKilogram,3,0
+65,microatmosphere,3,0
+66,ppm,3,0
+67,milligramsPerLiterPerDay,3,0
+68,microAtmosphere,3,0
+69,wattPerMeterSquared,3,1
+70,micromolesPerLiter,3,0
+71,millimolesPerSquareMeter,3,0
+72,millimetersPerDay,3,0
+73,microgramPerGram,3,1
+74,year,3,0
+75,Year,2,0
+76,meters,2,0
+77,milligramPerGramPerDay,2,0
+78,no unit,2,0
+79,nanomolePerMeterSquaredPerSecond,2,0
+80,millimeterPerYear,2,0
+81,none,2,0
+82,integer,2,0
+83,micromolesPerSquareMeterPerSecond,2,0
+84,equivalentsPerHectare,2,0
+85,microMolesPerLiter,2,0
+86,kilogramsPerMeterCubed,2,0
+87,microEquivalentsPerLiter,2,0
+88,PracticalSalinityUnit,2,0
+89,mS/cm,2,0
+90,milliequivalentsPerLiter,2,0
+91,microMolePerMeterSquaredPerSecond,2,0
+92,SiemensPerMeter,2,0
+93,ratio,2,0
+94,perMeter,2,0
+95,microSeimensPerCentimeter,2,0
+96,milligramsPerCubicCentimeter,2,0
+97,meterSquared,2,1
+98,parts per billion,2,0
+99,years,2,0
+100,platinumCobaltUnits,2,0
+101,centimeterPerHour,2,0
+102,numberPerCentimeterSquared,2,0
+103,cubicCentimeter,2,0
+104,Celsius,2,0
+105,chains,2,0
+106,index,2,0
+107,millimolePerMeterSquaredPerDay,2,0
+108,parts per million,2,0
+109,milligramPerLiter,2,1
+110,rotations per minute,2,0
+111,rotations,2,0
+112,meterSquaredPerMeterSquared,2,0
+113,micromolePerLiter,2,1
+114,partPerThousand,2,0
+115,Number,2,0
+116,gramsPerCubicMeter,2,0
+117,PlatinumCobaltUnits,2,0
+118,centimolePerKilogram,2,0
+119,numberPerAcre,2,0
+120,centimeter,2,1
+121,months,2,0
+122,number,2,1
+123,millimeter,2,1
+124,microsiemenPerCentimeter,2,0
+125,latitude,2,0
+126,Percent,2,0
+127,microgramsPerMeterSquaredPerDay,2,0
+128,millimolePerLiter,2,1
+129,cubicMetersPerDay,2,0
+130,microatmospheres,2,0
+131,individualsPerLiter,2,0
+132,inchPerYear,2,0
+133,nanomolePerHourPerGram,2,0
+134,formazinNephelometricUnits,1,0
+135,millimolePerMeterSquaredPerNight,1,0
+136,molePerMeterSquared,1,0
+137,integer ,1,0
+138,layer,1,0
+139,meter squares,1,0
+140,GramsCellulosePerGramLitter,1,0
+141,g water / cm^2,1,0
+142,GramsLigninPerGramsLitter,1,0
+143,gram leaf per gram sample,1,0
+144,ug-N/g dry soil/day,1,0
+145,ugC/g soil,1,0
+146,ugC/g soil/day,1,0
+147,ug-N/g dry soil,1,0
+148,mg S/L,1,0
+149,ug-N/g dry soil/hour,1,0
+150,decisiemenPerMeter,1,0
+151,millimeterMercury,1,0
+152,nephelometric turbidity unit,1,0
+153,µg P/L,1,0
+154,pointPerSquareMeter,1,0
+155,mg non-mobile C / cm^2,1,0
+156,meterSquaredPerMeterCubed,1,0
+157,millimeterCubedPerLiter,1,0
+158,number of individuals,1,0
+159,milligramPerMeterCubedPerHour,1,0
+160,millimeteCubedrPerLiter,1,0
+161,"percent nitrogen not measured on this sample, or sample was lost",1,0
+162,celcius,1,0
+163,GramsLigninPerGramsCelluloseAndLignin,1,0
+164,mg active N / kg dry soil,1,0
+165,micromolePerMeterSquared,1,0
+166,mg org N / cm^2,1,0
+167,kiloJoulePerMeterSquared,1,0
+168,Variance of center of mass,1,0
+169,center of mass,1,0
+170,time spent in safety area,1,0
+171,microgramC-CO2PerGramDrySoilPerDay,1,0
+172,gramCarbonPerKilogramDrySoil,1,0
+173,microgramC-CO2PerGramDrySoilPerHour,1,0
+174,mg C / cm^2,1,0
+175,gramDryPlantBiomassPerYear,1,0
+176,milligramNitrogenPerKilogramDrySoilPerDay,1,0
+177,micromolePerHourPerGramDrySoil,1,0
+178,whole bees,1,0
+179,gramPerDay,1,0
+180,mg non-mobile C / g dry soil,1,0
+181,VarroaPerDay,1,0
+182,mg org N / kg dry soil,1,0
+183,mg org C / g dry soil,1,0
+184,mg non-mobile N / cm^2,1,0
+185,mg active C / g dry soil,1,0
+186,mg mineral N / cm^2,1,0
+187,mg mineral N / kg dry soil,1,0
+188,mg org C / cm^2,1,0
+189,mg fine particles / cm^2,1,0
+190,mg active N / cm^2,1,0
+191,cm amsl NAVD 88,1,0
+192,variance of center of mass,1,0
+193,mg organic matter / cm^2,1,0
+194,volts,1,0
+195,time spent in fear area,1,0
+196,g / cm^3,1,0
+197,milligrams oxygen per gram dry mass of litter per hour,1,0
+198,percent per thousand,1,0
+199,kilopascals,1,0
+200,centimeterPerGram,1,0
+201,formazinNephelometricUnit,1,0
+202,mg N / cm^2,1,0
+203,literPerMilligramPerMeter,1,0
+204,milligramPerGramPerHour,1,0
+205,numberPerThreeTenthsMeterSquared,1,0
+206,miligram-carbon per square meter per day,1,0
+207,frustules,1,0
+208,gram-carbon per square meter per day,1,0
+209,CubicMicronPerMililiter,1,0
+210,micrometerCubedPerMillimeterSquared,1,0
+211,microSiemensperCentimeter,1,0
+212,cellsPerMillimeterSquared,1,0
+213,CatchperTrawl,1,0
+214,micrometerCubed,1,0
+215,mg active C / cm^2,1,0
+216,CubicMeterperSquareMeterperDay,1,0
+217,micrometerCubedPerMilliliter,1,0
+218,mg non-mobile N / kg dry soil,1,0
+219,microsiemens/cm,1,0
+220,Day of the year,1,0
+221,percent saturation,1,0
+222,meterCubedPerMole,1,0
+223,partsPerMillionPerSecond,1,0
+224,WGS 84,1,0
+225,week,1,0
+226,WGS84,1,0
+227,microsiemens per centimeter; μS/cm,1,0
+228,nesslerTurbidityUnit,1,0
+229,micrometerCubedPerLiter,1,0
+230,count of fish individuals,1,0
+231,micromole,1,0
+232,No unit,1,0
+233,lumen/foot2,1,0
+234,unitless.,1,0
+235,kilogramPerMeterPerSecondSquared,1,0
+236,millimeterPerHour,1,0
+237,rotation start,1,0
+238,kilogramPerKilogram,1,0
+239,joulePerKelvinPerKilogram,1,0
+240,meterSquaredPerSecondSquared,1,0
+241,hitsPerSquareCentimeter,1,0
+242,micro-atmosphere ,1,0
+243,molPerAtmosphere,1,0
+244,meterPerMeter,1,0
+245,julian day,1,0
+246,Water year,1,0
+247,month,1,0
+248,microgramsPerLiter,1,1
+249,Month,1,0
+250,simulation,1,0
+251,numberPer100Milliliters,1,0
+252,numberPer0.1MillimeterCubed,1,0
+253,numberMicrometerCubedPer0.1Mililiter,1,0
+254,opticalDensity,1,0
+255,Latitude,1,0
+256,Date code,1,0
+257,delta,1,0
+258,Relation,1,0
+259,electronVolt,1,0
+260,inverseAngstrom,1,0
+261,minusLoghydrogenIon,1,0
+262,minusLogactivity,1,0
+263,dollarPerMetricTon,1,0
+264,dollarPerYear,1,0
+265,gramPerYearPerMeterSquared,1,0
+266,kilogramPerYear,1,0
+267,gramPerMeterSquaredPerHour,1,0
+268,microgramPerMeterSquaredPerHour,1,0
+269,micromolPhotonsPerMeterSquaredPerSecond,1,0
+270,Unique Identifier,1,0
+271,grams,1,0
+272,MilliSiemens per centimeter,1,0
+273,pH ,1,0
+274,milligrams of oxygen per liter per day,1,0
+275,mEq/L,1,0
+276,abundance,1,0
+277,µg L-1,1,0
+278,µg cm-2,1,0
+279,squareMeterPerHectare,1,0
+280,megagramPerHectare,1,0
+281,numberMicrometerCubedPer0.1MilimeterCubed,1,0
+282,inchMercury,1,0
+283,NA,1,0
+284,millimolePerSquaredMeterPerHour,1,0
+285,part per trillion,1,0
+286,No units,1,0
+287,no units,1,0
+288,difference in probability,1,0
+289,probability,1,0
+290,decimal degrees,1,0
+291,individualSecsPerDay,1,0
+292,individuals,1,0
+293,kilometerPerKilometerSquared,1,0
+294,literPerDay,1,0
+295,kilogramPerDay,1,0
+296,negative log H+,1,0
+297,MicroSiemens per centimeter,1,0
+298,m2PerGram,1,0
+299,milligramPerKilogram,1,1
+300,per mille,1,0
+301,gramPerGram *100,1,0
+302,ugPerGram,1,0
+303,Mg/ha,1,0
+304,Fraction,1,0
+305,Day of Year,1,0
+306,Dilution factor,1,0
+307,micromolPhotonsPerSquareMeterPerSecond,1,0
+308,parts per thousand,1,0
+309,microseimens per centimeter,1,0
+310,Nephelometric Turbidity unit,1,0
+311,rotation end,1,0
+312,rank score,1,0
+313,microS.cm-2,1,0
+314, microS.cm-2,1,0
+315,permeter,1,0
+316,centimeterPerHourPerPascal,1,0
+317,perday,1,0
+318,Block,1,0
+319,Number of species,1,0
+320,# individuals,1,0
+321,# teats,1,0
+322,# offspring,1,0
+323,rate increase,1,0
+324,person per km2,1,0
+325,mL02/hr,1,0
+326,# litters/year,1,0
+327,# diet categories,1,0
+328,litters/year,1,0
+329,individuals/km2,1,0
+330,# habitat layers,1,0
+331,no units ,1,0
+332,ppb,1,0
+333,Practical Salinity Unit,1,0
+334,SPAD,1,0
+335,Stems per 0.1 ha,1,0
+336,interger,1,0
+337,molePerMeterSquaredPerDay,1,0
+338,microMolesPerKilogram,1,0
+339,millimolesPerSquareMeterPerHour,1,0
+340,Omega,1,0
+341,fraction,1,0
+342,m,1,0
+343,mg P/L,1,0
+344,µS/cm,1,0
+345,kilometersPerKilometerSquared,1,0
+346,mg N/L,1,0
+347,milligramPerMeterSquaredPerDay,1,1
+348,permill,1,0
+349,millimetersPerGram,1,0
+350,nanomolesPerGramPerHour,1,0
+351,micromolesPerMolPerSecond,1,0
+352,squareCentimetersPerGram,1,0
+353,countsPer6metersSquared,1,0
+354,millimolesCarbonPerSquareMeterPerDay,1,0
+355,perMill,1,0
+356,millimetersMercury,1,0
+357,millilitersPerMilliliter,1,0
+358,kiloWattsPerSquareMeter,1,0
+359,microMolesPerSecondPerSquareMeter,1,0
+360,ppmPerSecond,1,0
+361,micromolesPerMeterSquarePerSecond,1,0
+362,millimolesPerMeterSquarePerDay,1,0
+363,millimolesPerSecond,1,0
+364,molesPerMeterSquared,1,0
+365,joulesPerMeterSquared,1,0
+366,Meter,1,0
+367,milligramsPerHectare,1,0
+368,micromolePerMole,1,1
+369,dimensionsless,1,0
+370,kiloPascal,1,0
+371,milligrams per liter,1,0
+372,ID,1,0
+373,joulesPerKilogram,1,0
+374,microMolePerLiter,1,0
+375,microGramsPhosphorusPerTenCentimeterSquareExchangeResinPerTenWeeks,1,0
+376,Milligrams of nitrogen (ammonium & nitrate) per kilogram dry soil per day,1,0
+377,gramPerMeterSquared,1,1
+378,gramPerMeterSquaredPerYear,1,1
+379,perMilleVsVPDB,1,0
+380,milligramsPerDay,1,0
+381,nanomolesPerGram,1,0
+382,gramCentimeter,1,0
+383,centimetersSquaredPerGram,1,0
+384,relativeFluorescenceUnit,1,0
+385,Log response ratio as a magnitude with sign added (for ease of interpretation),1,0
+386,"Sign of % proportional change 1 if positive, -1 if negative",1,0
+387,sum mm per day,1,0
+388,mm per day,1,0
+389,milliMolar,1,0
+390,microMole,1,0
+391,milligramsPerSquareMeterPerDay,1,0
+392,microgramsPerSquareMeterPerDay,1,0
+393,microgramsPerSquareMeter,1,0
+394,millimolesPerCubicMeter,1,0
+395,microMolsPerMeterSquaredPerSecond,1,0
+396,metersAboveSeaLevel,1,0
+397,footCubedPerSecond,1,1
+398,fracDOY,1,0
+399,Milligrams of nitrate per kilogram dry soil per day,1,0
+400,Centimoles of charge per dry soil weight,1,0
+401,meterSquaredPerHectare,1,1
+402,microMolesPerSquareMeterPerSecond,1,0
+403,microGramsNitrogenPerTenCentimeterSquareExchangeResinPerTenWeeks,1,0
+404,millimolePerKilogram,1,1
+405,millilitersPerDay,1,0
+406,ppmPerDay,1,0
+407,millilitersPerKilogramsPerDayPerConcentration,1,0
+408,nanomolesPerMeterSquaredPerDay,1,0
+409,metersSquaredPerHectare,1,0
+410,cubicMeterPerHectare,1,0
+411,thermalSensitivity,1,0
+412,squareCentimeter,1,0
+413,milliMolePerMeterSquared,1,0
+414,milliMolePerMeterSquaredPerSecond,1,0
+415,micromolesPerMole,1,0
+416,molesPerSquareMeterPerSecond,1,0
+417,megagramPerHectarePerYear,1,0
+418,WattsPerSquareMeter,1,0
+419,nanogramsPerCubicCentimeterPerDay,1,0
+420,microgramsPerCubicCentimeter,1,0
+421,nanogramsPerGramPerDay,1,0
+422,cm3,1,0
+423,ug/m3,1,0
+424,cubicMicrometersPerCentimetersSquared,1,0
+425,microgramsPerSquareCentimeter,1,0
+426,joulePerCentimeterSquared,1,0
+427,micromolesPerMeterSquaredPerSecond,1,0
+428,wattPerSquareMeter,1,0
+429,gramsPerSquareMeterPerDay,1,0
+430,numberPerMeter,1,0
+431,millilitersPerKilogramsPerDay,1,0
+432,millilitersPerDayPerConcentration,1,0
+433,microGramsNitratePerTenCentimeterSquareExchangeResinPerTenWeeks,1,0
+434,nanomolesPerKilogramPerDay,1,0
+435,microGramsAmmoniumPerTenCentimeterSquareExchangeResinPerTenWeeks,1,0
+436,tillers per 0.25 squareMeter,1,0
+437,metersPerYear,1,0
+438,pct areal cover,1,0
+439,phi,1,0
+440,millimolesPerLiter,1,0
+441,gramsPerSquaredMeterPerCentimeter,1,0
+442,gramsDryMassPerSquareMeterPer15cmDepthInterval,1,0
+443,gramsDryMassPerSquareMeterPerYearPer15cmDepthInterval,1,0
+444,gramsPerHectarePerYear,1,0
+445,megaGramsPerHectare,1,0
+446,cubicMetersPerHectare,1,0
+447,JoulesperSquareMeter,1,0
+448,MilligramsOxygenPer LiterPerDay,1,0
+449,umolphotons/m2/day,1,0
+450,umolphotons/m2/second,1,0
+451,micromolePerSquareMeterPerDay,1,0
+452,millimeterPerMeterSquared,1,0
+453,millimolesPerMeterCubed,1,0
+454,gramsPerSecond,1,0
+455,MicrosiemensPerCm,1,0
+456,millionCubicMeters,1,0
+457,kilowattsPerHourPerMeterSquare,1,0
+458,lumenPerMeterSquare,1,0
+459,milliequivalentsPerHectogram,1,0
+460,milliequivalentPer100Gram,1,0
+461,centimoleH+PerKilogram,1,0
+462,Formazin Nephelometric Units,1,0
+463,milligramsTNperMilligramsDOC,1,0
+464,microgramsTPperMeter,1,0
+465,milligramsDONperMeter,1,0
+466,PerMeterPerMilligramsDOC,1,0
+467,microgramsDOPperMeter,1,0
+468,microgramsTPperMilligramsDOC,1,0
+469,micromolesPerMeterSuaredPerSecond,1,0
+470,milligramsTNperMeter,1,0
+471,milligramsDONperMilligramsDOC,1,0
+472,microgramsDOPperMilligramsDOC,1,0
+473,minimalErythemaDose,1,0
+474,degreeDays,1,0
+475,Primary Key,1,0
+476,relativeFlourescenceUnit,1,0
+477,FormazinNephelometricUnits,1,0
+478,g-O2 per m2 per day,1,0
+479,mol per liter per atmosphere,1,0
+480,deviation from the standard Vienna Peedee belemnite,1,0
+481,m/d,1,0
+482,micromol per kilogram of seawater,1,0
+483,cubic feet per second,1,0
+484,Relative Fluorescence Units,1,0
+485,day of year,1,0
+486,cubicKilometers,1,0
+487,countPer100SquareMeters,1,0
+488,practicalSalinityUnit,1,0
+489,PerMeter,1,0
+490,pings/m^3/30 min,1,0
+491,micromolePerMeterSquaredPerDay,1,0
+492,large fish/meterCubed/30 minute,1,0
+493,milligramPerHour,1,0
+494,Coordinate,1,0
+495,Experimental ID,1,0
+496,relativeFluorescenceUnites,1,0
+497,Part per million,1,0
+498,species,1,0
+499,plot,1,0
+500,block,1,0
+501,microgramsPerSquareMeterPerHour,1,0
+502,photosyntheticPhotonFluxDensity,1,0
+503,ppt,1,0
+504,kilogramsPerKilometerSquarePerYear,1,0
+505,decimalPercent,1,0
+506,micromolePerGram,1,1
+507,None,1,0
+508,microgramsPer10centimeterSquaredPerBurialLength,1,0
+509,micromoles,1,0
+510,fishPerEnclosure,1,0
+511,fishPerSchool,1,0
+512,thermal unit,1,0
+513,nephlometricTurbidityUnits,1,0
+514,litersPerMilligramCarbonPerMeter,1,0
+515,partsPerThousand,1,0
+516,quinineSulfateUnits,1,0
+517,millimeterSquaredPerMilligram,1,0
+518,milligramPerCentimeterSquared,1,0
+519,Decimal Degrees,1,0
+520,catchperuniteffort,1,0
+521,inverseCentimeter,1,1
+522,ppmv,1,0
+523,tonsPerAcre,1,0
+524,numberPerTree,1,0
+525,cubicmeterPerSecond,1,0
+526,milliliterPerHour,1,0
+527,literPerMilligramCarbonMeter,1,0
+528,cubicCentimeters,1,0
+529,decimaldegree,1,0
+530,PSU,1,0
+531,millionAcreFeet,1,0
+532,identification number,1,0
+533,Number of taxon,1,0
+534,taxon length,1,0
+535,Count,1,0
+536,Taxon code,1,0
+537,subsample number,1,0
+538,number of transects,1,0
+539,micromolesPerGram,1,0
+540,millisiemenPerCentimeter,1,0
+541,relativeFlorescenceUnits,1,0
+542,gramsOfOyxgenPerSquareMeterPerDay,1,0
+543,poundPerPersonPerDay,1,0
+544,milliequivalentsPer100grams,1,0
+545,microgramPerGramPerDay,1,1
+546,milliSiemens,1,0
+547,micro atmosphere,1,0
+548,micromolePerMeterSquaredPerSecond,1,1
+549,No Unit,1,0
+550,perMille,1,0
+551,RelativeFluorescenceUnit,1,0
+552,FormazinNephelometricUnit,1,0
+553,microgramsPerMilligram,1,0
+554,millgramsPerGram,1,0
+555,MilligramsPerCubicDecimeter,1,0
+556,acreFoot,1,0
+557,Proportion ,1,0
+558,fruitsPerIndividualPerYear,1,0
+559,unitless (normalized data),1,0
+560,unitless ,1,0
+561,unitless (normalized),1,0
+562,proportion of initial dry mass lost per day based on the asymptotic model of decay (Howard and Howard 1974),1,0
+563,millimolesPerCubicMeterPerDay,1,0
+564,micromolesPerSquareMeterPerDay,1,0
+565,joulesPerSquareMeter,1,0
+566,literPerMeterPerMilligram,1,0
+567,nanomolePerGram,1,0
+568,gramPercentimeterSquared,1,1
+569,microSiemenPerCentiMeter,1,0
+570,joulesPerMeterSquare,1,0
+571,microMolesPerHectare,1,0
+572,milliequivalentsPerHundredGrams,1,0
+573,partsPerBillion,1,0
+574,luminosityPerSquareFoot,1,0
+575,centimeterCubed,1,1
+576,celsiusSquared,1,0
